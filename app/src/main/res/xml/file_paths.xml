@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path
+        name="consultas_cache"
+        path="consultas/" />
+    <files-path
+        name="consultas_historico"
+        path="consultas/" />
+    <cache-path
+        name="updates_cache"
+        path="updates/" />
+</paths>

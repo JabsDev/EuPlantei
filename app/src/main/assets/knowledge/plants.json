@@ -1,0 +1,1915 @@
+{
+  "plantas": [
+    {
+      "id": "rosa",
+      "nomes": [
+        "Rosa",
+        "Roseira",
+        "Rosa spp."
+      ],
+      "luz": "Sol pleno, pelo menos 5 a 6 horas de sol direto por dia; tolera sol da manhã e sombra leve à tarde em regiões muito quentes.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros 3 cm do solo estiverem secos ao toque; em dias quentes e secos, verificar diariamente. Evitar molhar as folhas.",
+      "faixa_temperatura": "15 °C a 28 °C; proteger de geadas e de calor acima de 32 °C.",
+      "solo": "Solo fértil, rico em matéria orgânica, bem drenado e levemente ácido a neutro. Cobrir com palha sem encostar no caule.",
+      "doencas_comuns": [
+        {
+          "nome": "Mancha-negra da roseira",
+          "sintomas": "Manchas escuras com bordas irregulares nas folhas, amarelecimento e queda precoce; piora com folhas molhadas.",
+          "manejo": "Retirar e descartar folhas doentes, melhorar ventilação, evitar rega sobre a folhagem e fazer cobertura morta para impedir respingos de solo. Podar ramos muito adensados."
+        },
+        {
+          "nome": "Oídio da roseira",
+          "sintomas": "Pó branco acinzentado sobre folhas, brotos e botões; folhas podem enrugar e cair.",
+          "manejo": "Aumentar circulação de ar, reduzir excesso de adubação nitrogenada e retirar partes muito afetadas. Em casos recorrentes, buscar orientação local sobre produtos biológicos permitidos."
+        }
+      ],
+      "toxicidade_pet": "Folhas e pétalas não são tóxicas para cães e gatos, mas os espinhos podem ferir; manter vasos fora do alcance.",
+      "poda": "Podar no fim do inverno/início da primavera, removendo ramos mortos, cruzados e fracos; cortar flores murchas acima de uma gema voltada para fora. Limpar a tesoura com álcool.",
+      "adubacao": "Adubar no início do crescimento e após cada onda de floração com adubo equilibrado ou matéria orgânica curtida; evitar excesso de nitrogênio, que atrai pulgões e reduz flores.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "orquidea-phalaenopsis",
+      "nomes": [
+        "Orquídea phalaenopsis",
+        "Phalaenopsis",
+        "Phalaenopsis amabilis",
+        "Orquídea borboleta"
+      ],
+      "luz": "Luz indireta muito clara; perto de janela voltada para leste ou com cortina fina. Folhas muito escuras indicam falta de luz.",
+      "rega_por_faixa_umidade": "Regar quando as raízes visíveis ficarem prateadas e o vaso leve; normalmente a cada 7 a 10 dias. Nunca deixar água acumulada no centro das folhas.",
+      "faixa_temperatura": "18 °C a 28 °C; evitar abaixo de 15 °C e correntes de ar frio.",
+      "solo": "Substrato para orquídeas: casca de pinus, carvão e pedra-pomes; não usar terra vegetal compacta. Vaso pequeno e bem ventilado.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz e coroa",
+          "sintomas": "Raízes marrons e moles, folhas amareladas e base escurecida; cheiro de decomposição.",
+          "manejo": "Suspender a rega, retirar raízes podres com tesoura limpa, replantar em substrato novo e reduzir a frequência de água. Evitar água no centro da roseta."
+        },
+        {
+          "nome": "Mancha bacteriana da orquídea",
+          "sintomas": "Manchas encharcadas escuras que crescem rápido, às vezes com halo amarelo.",
+          "manejo": "Isolar a planta, remover folhas afetadas e manter ambiente ventilado e seco entre regas. Não compartilhar ferramentas sem limpeza; casos extensos exigem avaliação especializada."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Cortar a haste floral seca na base e remover raízes ocas com tesoura esterilizada; não cortar raízes verdes e firmes.",
+      "adubacao": "Adubar diluído, em regas alternadas, durante o crescimento ativo; suspender no frio e nunca aplicar sobre raízes secas.",
+      "intervalo_rega_dias": 8
+    },
+    {
+      "id": "anturio",
+      "nomes": [
+        "Antúrio",
+        "Anthurium andreanum",
+        "Anthurium"
+      ],
+      "luz": "Luz indireta clara a meia-sombra; sol direto forte queima as folhas.",
+      "rega_por_faixa_umidade": "Manter o substrato levemente úmido, sem encharcar; regar quando a superfície secar. Alta umidade do ar ajuda, sem manter água parada nas axilas.",
+      "faixa_temperatura": "18 °C a 27 °C; proteger de frio abaixo de 15 °C.",
+      "solo": "Substrato aerado para plantas epífitas: fibra de coco, casca, perlita e matéria orgânica; drenagem excelente.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão radicular",
+          "sintomas": "Folhas amarelas e murchas, base mole e raízes escuras; o vaso permanece pesado por muito tempo.",
+          "manejo": "Reduzir regas, melhorar drenagem, retirar partes moles e replantar em substrato novo. Não adubar enquanto a planta estiver se recuperando."
+        },
+        {
+          "nome": "Mancha bacteriana",
+          "sintomas": "Lesões encharcadas e escuras nas folhas, que se espalham em ambiente quente e úmido.",
+          "manejo": "Retirar folhas doentes, aumentar ventilação e evitar molhar a folhagem. Desinfetar tesouras entre cortes e isolar a planta."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos por cristais de oxalato de cálcio; causa irritação e salivação.",
+      "poda": "Remover folhas amareladas e flores velhas rente à base com ferramenta limpa; não ferir a coroa.",
+      "adubacao": "Adubo equilibrado muito diluído a cada 3 a 4 semanas no crescimento; evitar excesso, que queima raízes.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "samambaia",
+      "nomes": [
+        "Samambaia",
+        "Samambaia-de-boston",
+        "Nephrolepis exaltata",
+        "Samambaia-americana"
+      ],
+      "luz": "Luz indireta ou meia-sombra; prefere claridade filtrada, sem sol forte ao meio-dia.",
+      "rega_por_faixa_umidade": "Manter o substrato úmido, mas não encharcado. Regar com frequência em ambientes secos e borrifar água ao redor, não sobre as folhas à noite.",
+      "faixa_temperatura": "16 °C a 26 °C; evitar ar-condicionado direto e correntes frias.",
+      "solo": "Rico em matéria orgânica, leve, com boa retenção de umidade e drenagem. Vaso com furos e prato sem água parada.",
+      "doencas_comuns": [
+        {
+          "nome": "Pontas secas por baixa umidade",
+          "sintomas": "Folíolos com pontas marrons e ressecadas, especialmente em ambientes com ar-condicionado.",
+          "manejo": "Aumentar a umidade ao redor com prato de pedras e água, agrupar plantas e evitar sol direto. Não há doença infecciosa: ajustar o ambiente."
+        },
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas, murcha mesmo com solo úmido e raízes escuras com mau cheiro.",
+          "manejo": "Suspender a rega, melhorar drenagem, remover raízes podres e replantar em substrato leve. Regar somente quando a superfície começar a secar."
+        }
+      ],
+      "toxicidade_pet": "Samambaias comuns de interior, como Nephrolepis, são consideradas não tóxicas para cães e gatos.",
+      "poda": "Cortar folhas secas e frondes velhas na base; dividir touceiras densas na primavera se necessário.",
+      "adubacao": "Matéria orgânica leve ou adubo líquido diluído na primavera/verão; evitar acúmulo de sais.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "suculentas",
+      "nomes": [
+        "Suculentas",
+        "Echeveria",
+        "Haworthia",
+        "Sedum",
+        "Cactos e suculentas"
+      ],
+      "luz": "Sol pleno a luz muito clara; a maioria precisa de 4 a 6 horas de sol direto. Aclimatar aos poucos para não queimar.",
+      "rega_por_faixa_umidade": "Rega por imersão e secagem: molhar bem, deixar escorrer e só regar de novo quando o substrato estiver totalmente seco. Em clima úmido, espaçar mais.",
+      "faixa_temperatura": "10 °C a 30 °C; evitar geadas e calor extremo com solo molhado.",
+      "solo": "Substrato mineral e muito drenante: pedra-pomes, perlita, areia grossa e pouca matéria orgânica. Vaso de barro com furo.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão por excesso de água",
+          "sintomas": "Folhas translúcidas, moles e amareladas na base; caule escuro e raízes inexistentes.",
+          "manejo": "Retirar partes podres, secar à sombra por alguns dias, replantar em substrato seco e não regar por uma semana. Nunca deixar prato com água."
+        },
+        {
+          "nome": "Cochonilha",
+          "sintomas": "Pequenos pontos brancos ou algodoados nas axilas e folhas, com melado pegajoso.",
+          "manejo": "Isolar a planta, remover com cotonete levemente umedecido em álcool e melhorar ventilação. Repetir a inspeção semanalmente."
+        }
+      ],
+      "toxicidade_pet": "Varia muito por espécie: Echeveria e Haworthia costumam ser não tóxicas; plantas do gênero Euphorbia são tóxicas. Manter fora do alcance quando a espécie não for confirmada.",
+      "poda": "Remover folhas secas e hastes florais gastas; cortar partes moles e deixar cicatrizar antes de replantar. Propagar por folhas ou estacas.",
+      "adubacao": "Adubo específico para cactos e suculentas diluído, apenas na primavera/verão e com solo seco; nunca em excesso.",
+      "intervalo_rega_dias": 14
+    },
+    {
+      "id": "violeta",
+      "nomes": [
+        "Violeta-africana",
+        "Saintpaulia ionantha",
+        "Violeta"
+      ],
+      "luz": "Luz indireta clara e constante; sol direto queima as folhas. Janela a leste ou luz artificial de cultivo funcionam bem.",
+      "rega_por_faixa_umidade": "Regar pela base ou com conta-gotas, mantendo o solo úmido mas não encharcado. Evitar água na coroa e nas folhas.",
+      "faixa_temperatura": "18 °C a 24 °C; evitar abaixo de 15 °C e acima de 28 °C.",
+      "solo": "Substrato leve, rico em matéria orgânica e aerado, com perlita; vaso pequeno e proporcional à planta.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão da coroa",
+          "sintomas": "Centro da roseta escuro e mole, folhas centrais murchas; comum após rega sobre a coroa.",
+          "manejo": "Remover folhas e tecido mole, deixar secar e replantar a parte sadia em substrato novo. Voltar a regar pela base."
+        },
+        {
+          "nome": "Oídio da violeta",
+          "sintomas": "Pó branco sobre folhas e flores, com deformação de brotos.",
+          "manejo": "Melhorar ventilação, evitar aglomeração e remover folhas afetadas. Não molhar a folhagem; avaliar produto biológico com orientação local."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Remover folhas velhas, flores murchas e filhotes laterais indesejados com tesoura limpa; não molhar os cortes.",
+      "adubacao": "Adubo específico para violetas, diluído, a cada 2 a 3 semanas no crescimento; evitar excesso e nunca aplicar sobre a coroa.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "lirio",
+      "nomes": [
+        "Lírio",
+        "Lilium",
+        "Lírio-oriental",
+        "Lírio-asiático"
+      ],
+      "luz": "Sol da manhã ou luz indireta forte; flores duram mais com proteção do sol forte da tarde.",
+      "rega_por_faixa_umidade": "Manter o solo úmido durante o crescimento ativo, deixando secar levemente entre regas. Evitar molhar flores e folhas.",
+      "faixa_temperatura": "15 °C a 25 °C; bulbo tolera frio, mas geadas fortes exigem proteção.",
+      "solo": "Solo fértil, solto, bem drenado e rico em matéria orgânica; plantar o bulbo com boa profundidade.",
+      "doencas_comuns": [
+        {
+          "nome": "Botrytis (mofo cinzento)",
+          "sintomas": "Manchas marrons e mofo acinzentado em folhas e flores, favorecidos por umidade e pouca ventilação.",
+          "manejo": "Aumentar espaçamento e circulação de ar, remover partes afetadas, evitar molhar a folhagem e regar pela manhã."
+        },
+        {
+          "nome": "Podridão basal do bulbo",
+          "sintomas": "Amarelecimento e murcha da planta, bulbo mole e escuro na base.",
+          "manejo": "Descartar bulbos podres, melhorar drenagem e não plantar em local encharcado. Rotacionar o canteiro antes de replantar."
+        }
+      ],
+      "toxicidade_pet": "Altitude tóxica para gatos, inclusive pólen e água do vaso; muito perigoso para felinos. Manter totalmente fora do alcance.",
+      "poda": "Cortar flores murchas e deixar a folhagem secar naturalmente após a floração; só remover hastes secas. Não cortar o bulbo.",
+      "adubacao": "Adubar no plantio com matéria orgânica e no início do crescimento com adubo equilibrado; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "jasmim",
+      "nomes": [
+        "Jasmim",
+        "Jasminum officinale",
+        "Jasminum sambac",
+        "Jasmim-dos-poetas"
+      ],
+      "luz": "Sol pleno a sol da manhã; precisa de pelo menos 4 horas de luz direta para florir.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar, mantendo umidade moderada. Em vasos, verificar o peso e evitar encharcamento.",
+      "faixa_temperatura": "15 °C a 30 °C; proteger de geadas.",
+      "solo": "Solo bem drenado, levemente fértil e com matéria orgânica; aceita vaso desde que haja suporte e poda.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha, solo persistentemente úmido e raízes escuras.",
+          "manejo": "Reduzir rega, garantir drenagem e replantar se necessário. Não deixar prato com água."
+        },
+        {
+          "nome": "Pulgões e fumagina",
+          "sintomas": "Broto e folhas novas deformadas, pontos verdes ou escuros e camada preta pegajosa.",
+          "manejo": "Lavar com jato suave, remover partes muito afetadas e favorecer predadores naturais. Evitar excesso de nitrogênio."
+        }
+      ],
+      "toxicidade_pet": "Depende da espécie: Jasminum officinale e J. sambac são geralmente considerados não tóxicos, mas algumas plantas chamadas de jasmim são tóxicas. Confirmar a espécie e evitar ingestão.",
+      "poda": "Podar após a floração para controlar tamanho e arejar; remover ramos mortos e fracos, mantendo renovações.",
+      "adubacao": "Adubar na primavera e após a poda com adubo equilibrado; evitar excesso de nitrogênio em vaso.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "hortensia",
+      "nomes": [
+        "Hortênsia",
+        "Hydrangea macrophylla",
+        "Hydrangea"
+      ],
+      "luz": "Sol da manhã e sombra à tarde; em regiões frescas tolera mais sol, mas flores e folhas queimam no calor forte.",
+      "rega_por_faixa_umidade": "Manter o solo úmido, com regas regulares e sem encharcar. A planta murcha rapidamente quando o solo seca.",
+      "faixa_temperatura": "15 °C a 25 °C; evitar calor acima de 30 °C e geadas.",
+      "solo": "Solo rico em matéria orgânica, úmido e bem drenado. pH ácido intensifica flores azuis; pH neutro a alcalino favorece rosadas.",
+      "doencas_comuns": [
+        {
+          "nome": "Clorose por pH inadequado",
+          "sintomas": "Folhas amarelas com nervuras verdes, crescimento fraco; comum em solo alcalino.",
+          "manejo": "Corrigir o pH com matéria orgânica ácida e evitar água muito alcalina. Confirmar a causa antes de adubar."
+        },
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em folhas e flores após períodos úmidos e abafados.",
+          "manejo": "Abrir a planta para ventilar, remover partes afetadas e evitar molhar flores. Regar pela manhã."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; folhas e flores contêm compostos cianogênicos.",
+      "poda": "Podar logo após a floração, removendo hastes velhas; não podar no fim do inverno se já houver gemas florais.",
+      "adubacao": "Adubar na primavera com matéria orgânica e adubo equilibrado; evitar excesso de fósforo se quiser controlar o pH.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "espada-de-sao-jorge",
+      "nomes": [
+        "Espada-de-são-jorge",
+        "Sansevieria trifasciata",
+        "Dracaena trifasciata",
+        "Língua-de-sogra"
+      ],
+      "luz": "Aceita baixa luz a sol filtrado; cresce melhor com luz indireta clara. Sol forte pode marcar as folhas.",
+      "rega_por_faixa_umidade": "Regar somente quando o substrato estiver completamente seco, a cada 2 a 4 semanas conforme o clima. Tolerante à seca.",
+      "faixa_temperatura": "15 °C a 30 °C; evitar abaixo de 10 °C.",
+      "solo": "Substrato muito drenante, com perlita ou pedra-pomes. Vaso justo e com furo.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão da base",
+          "sintomas": "Folhas moles, amareladas e base escura; ocorre por excesso de rega e solo compactado.",
+          "manejo": "Suspender a rega, retirar partes moles, replantar em substrato seco e drenante. Regar com menos frequência."
+        },
+        {
+          "nome": "Mancha fúngica nas folhas",
+          "sintomas": "Lesões marrons com borda amarela, geralmente após água acumulada ou ambiente abafado.",
+          "manejo": "Remover folhas afetadas, melhorar ventilação e evitar molhar as folhas. Não regar em excesso."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; causa irritação gastrointestinal e salivação.",
+      "poda": "Remover folhas amareladas e moles na base; dividir touceiras quando o vaso estiver cheio. Usar luvas.",
+      "adubacao": "Adubo equilibrado diluído 2 a 3 vezes no verão; pouco ou nenhum no inverno.",
+      "intervalo_rega_dias": 18
+    },
+    {
+      "id": "jiboia",
+      "nomes": [
+        "Jiboia",
+        "Epipremnum aureum",
+        "Pothos",
+        "Scindapsus aureus"
+      ],
+      "luz": "Luz indireta clara; tolera meia-sombra, mas cresce menos. Sol direto queima as folhas.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros 2 a 3 cm do solo secarem. Evitar água parada e solo constantemente úmido.",
+      "faixa_temperatura": "18 °C a 29 °C; evitar abaixo de 12 °C.",
+      "solo": "Substrato aerado com fibra de coco, perlita e matéria orgânica; boa drenagem.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amarelas e murchas, caules moles e raízes escuras.",
+          "manejo": "Retirar raízes podres, replantar em substrato novo e reduzir a rega. Cortar hastes sadias para propagar se a base estiver comprometida."
+        },
+        {
+          "nome": "Mancha bacteriana",
+          "sintomas": "Manchas escuras encharcadas nas folhas, com halo amarelado, que aumentam em ambiente úmido.",
+          "manejo": "Remover folhas doentes, arejar o ambiente, evitar molhar a folhagem e desinfetar tesouras."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos por oxalato de cálcio.",
+      "poda": "Podar hastes longas para controlar e estimular ramificação; cortar acima de um nó e remover folhas mortas.",
+      "adubacao": "Adubo líquido equilibrado diluído a cada 4 a 6 semanas na primavera/verão.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "comigo-ninguem-pode",
+      "nomes": [
+        "Comigo-ninguém-pode",
+        "Dieffenbachia seguine",
+        "Dieffenbachia",
+        "Planta-muda"
+      ],
+      "luz": "Luz indireta clara a meia-sombra; proteger do sol direto.",
+      "rega_por_faixa_umidade": "Manter o substrato levemente úmido, deixando a superfície secar entre regas. Evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 27 °C; evitar frio abaixo de 15 °C.",
+      "solo": "Solo rico em matéria orgânica, solto e bem drenado.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do caule",
+          "sintomas": "Caule mole e escuro, folhas inferiores amarelas e queda; associada a excesso de água.",
+          "manejo": "Reduzir rega, remover tecido mole, replantar em substrato novo e manter ambiente ventilado."
+        },
+        {
+          "nome": "Mancha foliar fúngica",
+          "sintomas": "Manchas marrons com centro claro e borda escura, que aumentam em folhas molhadas.",
+          "manejo": "Retirar folhas afetadas, evitar molhar a folhagem e melhorar circulação de ar."
+        }
+      ],
+      "toxicidade_pet": "Muito tóxica para cães, gatos e crianças; a seiva causa irritação intensa. Manter fora do alcance e usar luvas ao podar.",
+      "poda": "Remover folhas inferiores amareladas e cortar o topo para renovar; usar luvas e lavar as ferramentas.",
+      "adubacao": "Adubo equilibrado diluído mensalmente no crescimento; reduzir no inverno.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "palmeira-rafis",
+      "nomes": [
+        "Palmeira-ráfis",
+        "Rhapis excelsa",
+        "Ráfis",
+        "Palmeira-de-sala"
+      ],
+      "luz": "Luz indireta clara a meia-sombra; tolera ambientes internos bem iluminados.",
+      "rega_por_faixa_umidade": "Manter o solo levemente úmido, sem encharcar; regar quando a superfície começar a secar.",
+      "faixa_temperatura": "16 °C a 28 °C; proteger de correntes frias.",
+      "solo": "Solo fértil, solto e bem drenado, com matéria orgânica.",
+      "doencas_comuns": [
+        {
+          "nome": "Pontas secas",
+          "sintomas": "Extremidades das folhas marrons e ressecadas, comumente por baixa umidade ou acúmulo de sais.",
+          "manejo": "Aumentar umidade ao redor, regar com água de qualidade e evitar excesso de fertilizante. Cortar apenas a ponta seca."
+        },
+        {
+          "nome": "Ácaro-rajado",
+          "sintomas": "Pontilhado amarelado nas folhas, teias finas e perda de vigor em ambiente seco.",
+          "manejo": "Aumentar a umidade, lavar as folhas com jato suave e isolar a planta. Inspecionar a face inferior das folhas."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Cortar folhas secas e hastes antigas rente à base; remover folhas amareladas sem puxar.",
+      "adubacao": "Adubo para palmeiras ou equilibrado diluído na primavera/verão, sem excesso.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "ficus",
+      "nomes": [
+        "Ficus",
+        "Ficus lyrata",
+        "Ficus elastica",
+        "Figueira-de-sala",
+        "Ficus benjamina"
+      ],
+      "luz": "Luz indireta muito clara; algumas espécies toleram sol da manhã. Evitar mudanças bruscas de posição.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros 3 cm do solo secarem; não encharcar. Ficus perde folhas com excesso ou falta de água.",
+      "faixa_temperatura": "16 °C a 28 °C; evitar correntes de ar e abaixo de 12 °C.",
+      "solo": "Solo fértil, bem drenado e levemente ácido; vaso com boa drenagem.",
+      "doencas_comuns": [
+        {
+          "nome": "Queda de folhas por estresse",
+          "sintomas": "Folhas amarelas ou verdes caem em grande quantidade após mudança de local, frio ou rega irregular.",
+          "manejo": "Estabilizar luz e temperatura, ajustar a rega e evitar movimentar a planta. Não adubar durante a queda intensa."
+        },
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas murchas e amareladas, solo encharcado e raízes escuras.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar em substrato novo se necessário."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; a seiva pode irritar a pele e a boca.",
+      "poda": "Podar no início da primavera para controlar altura e arejar; cortar acima de um nó e evitar poda pesada de uma vez.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas no crescimento; suspender no inverno.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "geranio",
+      "nomes": [
+        "Gerânio",
+        "Pelargonium",
+        "Gerânio-sardinha",
+        "Pelargonium hortorum"
+      ],
+      "luz": "Sol pleno com pelo menos 4 a 6 horas de sol; tolera sol da manhã em regiões muito quentes.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; evitar molhar folhas e flores. Prefere solo levemente seco entre regas.",
+      "faixa_temperatura": "15 °C a 27 °C; proteger de geadas e calor extremo.",
+      "solo": "Solo leve, bem drenado e moderadamente fértil; vaso com furo.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do caule",
+          "sintomas": "Caule escuro e mole na base, folhas amareladas e queda da planta.",
+          "manejo": "Remover partes podres, usar substrato drenante, reduzir rega e propagar por estacas sadias."
+        },
+        {
+          "nome": "Ferrugem do gerânio",
+          "sintomas": "Pústulas alaranjadas ou marrons na face inferior das folhas, com amarelecimento na face superior.",
+          "manejo": "Retirar folhas afetadas, melhorar ventilação, evitar molhar a folhagem e não adubar em excesso."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; causa irritação gastrointestinal e dermatite de contato.",
+      "poda": "Podar após a floração, removendo flores secas e hastes fracas; renovar a planta com estacas sadias.",
+      "adubacao": "Adubo equilibrado diluído a cada 3 a 4 semanas; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "cravo",
+      "nomes": [
+        "Cravo",
+        "Cravo-de-defunto",
+        "Tagetes",
+        "Cravo-de-jardim",
+        "Dianthus"
+      ],
+      "luz": "Sol pleno; precisa de pelo menos 5 horas de sol para florir bem.",
+      "rega_por_faixa_umidade": "Regar quando o solo começar a secar, mantendo umidade moderada. Evitar molhar flores.",
+      "faixa_temperatura": "10 °C a 24 °C; tolera noites frescas, mas não geadas fortes.",
+      "solo": "Solo bem drenado, levemente fértil e com pH neutro a levemente alcalino.",
+      "doencas_comuns": [
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em flores e folhas, especialmente em tempo úmido e plantio adensado.",
+          "manejo": "Melhorar espaçamento e ventilação, remover flores e folhas afetadas e regar pela base."
+        },
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Murcha, amarelecimento e raízes escuras em solo mal drenado.",
+          "manejo": "Corrigir drenagem, reduzir rega e replantar em local mais alto e ensolarado."
+        }
+      ],
+      "toxicidade_pet": "Cravo-de-defunto (Tagetes) pode ser irritante para pets; cravo-de-jardim (Dianthus) é considerado não tóxico. Confirmar a espécie.",
+      "poda": "Remover flores murchas e hastes secas; podar levemente após a floração para estimular novos brotos.",
+      "adubacao": "Adubo equilibrado no plantio e a cada 4 semanas no crescimento; não exagerar.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "lavanda",
+      "nomes": [
+        "Lavanda",
+        "Lavandula angustifolia",
+        "Lavanda-inglesa"
+      ],
+      "luz": "Sol pleno, pelo menos 6 horas por dia; sombra reduz a floração.",
+      "rega_por_faixa_umidade": "Regar com moderação, deixando o solo secar entre regas. Prefere solo seco; excesso de água é o principal problema.",
+      "faixa_temperatura": "10 °C a 28 °C; tolera frio e clima seco.",
+      "solo": "Solo arenoso, bem drenado e levemente alcalino; evitar matéria orgânica pesada.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão radicular",
+          "sintomas": "Murcha, folhas acinzentadas e raízes escuras em solo úmido.",
+          "manejo": "Plantar em solo elevado e arenoso, reduzir rega e remover plantas afetadas. Não usar cobertura que retenha umidade no colo."
+        },
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco em folhas e hastes, comum em dias quentes com noites úmidas.",
+          "manejo": "Aumentar espaçamento e circulação de ar, podar levemente e evitar excesso de nitrogênio."
+        }
+      ],
+      "toxicidade_pet": "Pode causar mal-estar em cães e gatos se ingerida em grande quantidade; manter fora do alcance.",
+      "poda": "Podar levemente após a floração, removendo flores secas e hastes velhas sem cortar a madeira antiga.",
+      "adubacao": "Pouca adubação: matéria orgânica leve ou adubo equilibrado uma vez na primavera; excesso reduz aroma e flores.",
+      "intervalo_rega_dias": 10
+    },
+    {
+      "id": "alecrim",
+      "nomes": [
+        "Alecrim",
+        "Salvia rosmarinus",
+        "Rosmarinus officinalis"
+      ],
+      "luz": "Sol pleno, no mínimo 5 a 6 horas de sol direto.",
+      "rega_por_faixa_umidade": "Regar quando o solo estiver seco ao toque; tolera seca e odeia encharcamento.",
+      "faixa_temperatura": "10 °C a 30 °C; proteger de geadas fortes.",
+      "solo": "Solo leve, arenoso e bem drenado; levemente alcalino.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e queda, base escura e solo úmido por longos períodos.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar em substrato mineral. Não cobrir o colo com matéria orgânica."
+        },
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco nas folhas e hastes, com perda de aroma e vigor.",
+          "manejo": "Podar para arejar, evitar excesso de água e adubação nitrogenada. Regar pela manhã."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico em pequenas quantidades, mas a ingestão em grande quantidade pode causar desconforto gastrointestinal.",
+      "poda": "Colher e podar as pontas durante o crescimento; remover ramos secos e arejar. Evitar poda drástica.",
+      "adubacao": "Pouca; adubo equilibrado leve na primavera ou matéria orgânica. Não adubar em excesso.",
+      "intervalo_rega_dias": 10
+    },
+    {
+      "id": "manjericao",
+      "nomes": [
+        "Manjericão",
+        "Ocimum basilicum",
+        "Manjericão-roxo",
+        "Basilicão"
+      ],
+      "luz": "Sol pleno com 4 a 6 horas de luz; em calor extremo, proteger do sol da tarde.",
+      "rega_por_faixa_umidade": "Manter o solo levemente úmido; regar quando a superfície secar. Evitar molhar folhas ao anoitecer.",
+      "faixa_temperatura": "18 °C a 30 °C; sensível a frio abaixo de 12 °C.",
+      "solo": "Solo rico em matéria orgânica, solto e bem drenado.",
+      "doencas_comuns": [
+        {
+          "nome": "Míldio do manjericão",
+          "sintomas": "Amarelecimento entre nervuras e mofo cinza-violeta na face inferior das folhas.",
+          "manejo": "Aumentar ventilação, evitar molhar a folhagem, remover folhas afetadas e não adensar o plantio."
+        },
+        {
+          "nome": "Podridão de caule",
+          "sintomas": "Caule escuro e mole próximo ao solo, com murcha repentina.",
+          "manejo": "Melhorar drenagem, reduzir rega, remover plantas afetadas e replantar em substrato limpo."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico para cães e gatos em pequenas quantidades.",
+      "poda": "Podar o topo e as flores para manter folhas tenras; retirar folhas amareladas. Colher com frequência.",
+      "adubacao": "Adubo equilibrado diluído a cada 3 a 4 semanas; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "hortela",
+      "nomes": [
+        "Hortelã",
+        "Mentha",
+        "Hortelã-comum",
+        "Menta"
+      ],
+      "luz": "Sol da manhã ou meia-sombra; em regiões quentes, prefere proteção do sol forte da tarde.",
+      "rega_por_faixa_umidade": "Manter o solo úmido, sem encharcar; regar quando a superfície começar a secar.",
+      "faixa_temperatura": "15 °C a 28 °C; tolera frio leve.",
+      "solo": "Solo rico em matéria orgânica, úmido e bem drenado. Cultivar em vaso para controlar o crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Ferrugem da hortelã",
+          "sintomas": "Pústulas alaranjadas na face inferior das folhas e amarelecimento na superior.",
+          "manejo": "Remover folhas afetadas, colher com frequência para arejar, evitar molhar a folhagem e não adensar o plantio."
+        },
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Murcha e amarelecimento com solo encharcado.",
+          "manejo": "Reduzir rega, garantir drenagem e replantar em substrato novo."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos em quantidade; o óleo essencial é especialmente perigoso. Manter fora do alcance.",
+      "poda": "Podar o topo e remover flores para concentrar energia; colher com frequência. Dividir touceiras quando densas.",
+      "adubacao": "Matéria orgânica ou adubo equilibrado leve; evitar excesso, que reduz o aroma.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "zamioculca",
+      "nomes": [
+        "Zamioculca",
+        "Zamioculcas zamiifolia",
+        "ZZ plant",
+        "Planta-z"
+      ],
+      "luz": "Luz indireta a meia-sombra; tolera baixa luminosidade, mas cresce mais com luz clara.",
+      "rega_por_faixa_umidade": "Regar somente quando o substrato estiver completamente seco, a cada 2 a 3 semanas ou mais. Armazena água nas raízes.",
+      "faixa_temperatura": "15 °C a 30 °C; evitar abaixo de 10 °C.",
+      "solo": "Substrato muito drenante com perlita e areia grossa; vaso com furo.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do rizoma",
+          "sintomas": "Folhas amarelas, hastes moles e base escura; ocorre com rega excessiva.",
+          "manejo": "Suspender a rega, retirar partes moles, secar os rizomas e replantar em substrato novo e seco."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras em folhas, geralmente após excesso de umidade.",
+          "manejo": "Remover folhas afetadas, reduzir rega e melhorar ventilação."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; causa irritação e salivação.",
+      "poda": "Remover folhas amareladas e hastes velhas na base; não regar logo após a poda.",
+      "adubacao": "Adubo diluído uma ou duas vezes na primavera/verão; pouco no inverno.",
+      "intervalo_rega_dias": 18
+    },
+    {
+      "id": "peperomia",
+      "nomes": [
+        "Peperômia",
+        "Peperomia",
+        "Peperomia obtusifolia",
+        "Peperomia caperata"
+      ],
+      "luz": "Luz indireta clara; sol direto pode queimar folhas.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros 2 a 3 cm estiverem secos; folhas e caules armazenam água. Evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 26 °C; evitar abaixo de 12 °C.",
+      "solo": "Substrato aerado com perlita e matéria orgânica leve; vaso pequeno.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do caule",
+          "sintomas": "Caule mole e escuro, folhas caindo com facilidade.",
+          "manejo": "Remover partes afetadas, reduzir rega, replantar em substrato drenante e manter boa ventilação."
+        },
+        {
+          "nome": "Edema foliar",
+          "sintomas": "Pequenas saliências ou manchas cortiçosas na face inferior das folhas, por rega irregular.",
+          "manejo": "Ajustar a rega para secar levemente entre ciclos e evitar solo constantemente úmido. Não é contagioso."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Remover folhas velhas e hastes muito longas; cortar acima de um nó para ramificar.",
+      "adubacao": "Adubo equilibrado diluído a cada 6 a 8 semanas no crescimento; é pouco exigente.",
+      "intervalo_rega_dias": 8
+    },
+    {
+      "id": "kalanchoe",
+      "nomes": [
+        "Kalanchoe",
+        "Kalanchoe blossfeldiana",
+        "Flor-da-fortuna",
+        "Calandiva"
+      ],
+      "luz": "Sol pleno a luz muito clara; precisa de boa luminosidade para florir.",
+      "rega_por_faixa_umidade": "Regar quando o substrato estiver seco, com boa drenagem; evitar água no prato.",
+      "faixa_temperatura": "15 °C a 28 °C; proteger de geadas.",
+      "solo": "Substrato arenoso e drenante, semelhante ao de suculentas.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão radicular",
+          "sintomas": "Folhas amolecidas e translúcidas, caule escuro e queda.",
+          "manejo": "Retirar tecido mole, secar e replantar em substrato seco. Reduzir drasticamente a rega."
+        },
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco sobre folhas e botões em ambiente abafado.",
+          "manejo": "Aumentar ventilação, reduzir umidade e remover partes afetadas."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; contém bufadienolídeos e pode causar arritmias.",
+      "poda": "Remover flores murchas e hastes secas; podar após a floração para renovar.",
+      "adubacao": "Adubo para suculentas diluído na primavera/verão, com solo seco.",
+      "intervalo_rega_dias": 12
+    },
+    {
+      "id": "begonia",
+      "nomes": [
+        "Begônia",
+        "Begonia",
+        "Begônia-rex",
+        "Begonia rex"
+      ],
+      "luz": "Luz indireta clara; muitas variedades preferem meia-sombra e não toleram sol forte.",
+      "rega_por_faixa_umidade": "Manter levemente úmida, sem encharcar; evitar água sobre folhas e flores. Regar pela base quando possível.",
+      "faixa_temperatura": "18 °C a 25 °C; evitar frio abaixo de 15 °C.",
+      "solo": "Substrato leve, aerado e rico em matéria orgânica, com boa drenagem.",
+      "doencas_comuns": [
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco em folhas e hastes, com deformação de brotos.",
+          "manejo": "Melhorar ventilação, remover folhas afetadas, evitar molhar a folhagem e reduzir adensamento."
+        },
+        {
+          "nome": "Podridão do caule",
+          "sintomas": "Base mole e escura, folhas murchas e queda.",
+          "manejo": "Reduzir rega, cortar parte sadia para propagar, replantar em substrato limpo e drenante."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; causa irritação na boca e no trato digestivo.",
+      "poda": "Remover flores e folhas velhas; podar para arejar e renovar. Não molhar os cortes.",
+      "adubacao": "Adubo equilibrado diluído a cada 3 a 4 semanas no crescimento; reduzir no inverno.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "clorofito",
+      "nomes": [
+        "Clorofito",
+        "Chlorophytum comosum",
+        "Planta-aranha",
+        "Gravatinha"
+      ],
+      "luz": "Luz indireta clara a meia-sombra; tolera luz artificial.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; manter umidade moderada. Tolerante a pequenos esquecimentos.",
+      "faixa_temperatura": "15 °C a 28 °C; proteger de geadas.",
+      "solo": "Solo leve, bem drenado e com matéria orgânica; vaso com furo.",
+      "doencas_comuns": [
+        {
+          "nome": "Pontas secas",
+          "sintomas": "Extremidades das folhas secas e marrons, comuns com baixa umidade ou excesso de sais.",
+          "manejo": "Aumentar umidade, regar com água de boa qualidade e evitar excesso de fertilizante. Cortar a ponta seca."
+        },
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas, base mole e raízes escuras por excesso de água.",
+          "manejo": "Reduzir rega, replantar em substrato drenante e remover raízes podres."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico para cães e gatos; gatos podem se sentir atraídos e mastigar as folhas.",
+      "poda": "Cortar folhas secas e remover filhotes para propagar; dividir a touceira quando estiver cheia.",
+      "adubacao": "Adubo líquido equilibrado diluído a cada 4 a 6 semanas na primavera/verão.",
+      "intervalo_rega_dias": 6
+    },
+    {
+      "id": "maranta",
+      "nomes": [
+        "Maranta",
+        "Maranta leuconeura",
+        "Planta-da-oração",
+        "Maranta-pavão"
+      ],
+      "luz": "Luz indireta clara a meia-sombra; evitar sol direto.",
+      "rega_por_faixa_umidade": "Manter o solo levemente úmido, sem encharcar; alta umidade do ar evita pontas secas.",
+      "faixa_temperatura": "18 °C a 26 °C; evitar correntes frias e abaixo de 15 °C.",
+      "solo": "Substrato aerado, rico em matéria orgânica e com boa retenção de umidade sem compactar.",
+      "doencas_comuns": [
+        {
+          "nome": "Pontas secas e folhas enroladas",
+          "sintomas": "Bordas secas e folhas que não abrem, geralmente por baixa umidade ou rega irregular.",
+          "manejo": "Aumentar umidade ao redor, ajustar a rega e evitar sol direto. Não é necessariamente doença."
+        },
+        {
+          "nome": "Ácaro-rajado",
+          "sintomas": "Pontilhado amarelado, teias finas e folhas com brilho opaco.",
+          "manejo": "Aumentar umidade, lavar as folhas com jato suave e isolar a planta até controlar."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Remover folhas secas e hastes velhas; podar para controlar o tamanho. Alta umidade ajuda.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas no crescimento; evitar excesso.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "pata-de-elefante",
+      "nomes": [
+        "Pata-de-elefante",
+        "Alocasia",
+        "Colocasia",
+        "Alocasia amazônica",
+        "Orelha-de-elefante"
+      ],
+      "luz": "Luz indireta clara; sol direto queima as folhas grandes.",
+      "rega_por_faixa_umidade": "Manter o solo úmido, mas não encharcado; regar quando a superfície começar a secar.",
+      "faixa_temperatura": "18 °C a 28 °C; proteger de frio abaixo de 15 °C.",
+      "solo": "Substrato rico em matéria orgânica, aerado e com excelente drenagem.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amarelas e murchas, base mole e raízes escuras.",
+          "manejo": "Reduzir rega, retirar raízes podres, replantar em substrato novo e manter boa ventilação."
+        },
+        {
+          "nome": "Ácaro-rajado",
+          "sintomas": "Pontilhado amarelado e teias finas, especialmente em ambiente seco.",
+          "manejo": "Aumentar umidade, lavar as folhas e isolar a planta. Verificar a face inferior das folhas."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos por oxalato de cálcio; a seiva irrita pele e boca.",
+      "poda": "Remover folhas velhas e hastes secas; cortar folhas amareladas na base. Usar luvas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 a 6 semanas na primavera/verão.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "bonsai",
+      "nomes": [
+        "Bonsai",
+        "Bonsai de ficus",
+        "Bonsai de ligustro",
+        "Bonsai de pinheiro"
+      ],
+      "luz": "Depende da espécie: a maioria precisa de sol pleno ou luz muito clara; ficus e ligustro toleram luz indireta forte.",
+      "rega_por_faixa_umidade": "Regar quando a superfície do substrato começar a secar, verificando com o dedo ou palito. Bonsai seca rápido em vaso pequeno.",
+      "faixa_temperatura": "15 °C a 28 °C, variando conforme a espécie; proteger de extremos.",
+      "solo": "Substrato granular específico para bonsai (akadama, pedra-pomes e matéria orgânica), com ótima drenagem.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e queda, substrato compactado e raízes escuras.",
+          "manejo": "Replantar em substrato granular, ajustar rega e garantir drenagem. Não adubar durante a recuperação."
+        },
+        {
+          "nome": "Cochonilha e ácaros",
+          "sintomas": "Pontos algodoados, folhas pegajosas ou pontilhado amarelo em ambiente seco.",
+          "manejo": "Inspecionar galhos e face inferior das folhas, remover manualmente e melhorar ventilação e umidade."
+        }
+      ],
+      "toxicidade_pet": "Depende da espécie usada no bonsai; ficus é tóxico. Confirmar a espécie e manter fora do alcance.",
+      "poda": "Poda de formação e manutenção conforme a espécie, pinçando brotos e removendo ramos cruzados; usar ferramenta afiada.",
+      "adubacao": "Adubo específico para bonsai, diluído, a cada 2 a 4 semanas no crescimento; suspender em dormência.",
+      "intervalo_rega_dias": 2
+    },
+    {
+      "id": "girassol",
+      "nomes": [
+        "Girassol",
+        "Helianthus annuus",
+        "Girassol-anão"
+      ],
+      "luz": "Sol pleno, no mínimo 6 horas de sol direto por dia.",
+      "rega_por_faixa_umidade": "Regar profundamente quando a superfície secar; manter umidade durante o crescimento, sem encharcar.",
+      "faixa_temperatura": "18 °C a 30 °C; tolera calor, mas precisa de água.",
+      "solo": "Solo profundo, fértil, bem drenado e com matéria orgânica. Vaso grande para variedades anãs.",
+      "doencas_comuns": [
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco em folhas, comum em noites úmidas e dias quentes.",
+          "manejo": "Aumentar espaçamento e ventilação, evitar excesso de nitrogênio e regar pela manhã."
+        },
+        {
+          "nome": "Podridão do caule",
+          "sintomas": "Caule escuro e mole na base, planta tombando.",
+          "manejo": "Melhorar drenagem, evitar ferir a base e não regar em excesso. Remover plantas afetadas."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico para cães e gatos.",
+      "poda": "Remover flores secas e folhas velhas; em vaso, tutorar. Não precisa de poda de formação.",
+      "adubacao": "Adubo equilibrado no plantio e na floração; evitar excesso de nitrogênio, que aumenta folhas e reduz flores.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "tulipa",
+      "nomes": [
+        "Tulipa",
+        "Tulipa gesneriana",
+        "Tulip"
+      ],
+      "luz": "Sol pleno a sol da manhã; precisa de luz para o bulbo florescer.",
+      "rega_por_faixa_umidade": "Regar quando o solo começar a secar, sem encharcar. Após a floração, reduzir a rega gradualmente.",
+      "faixa_temperatura": "10 °C a 20 °C durante o crescimento; calor forte encurta a floração.",
+      "solo": "Solo solto, arenoso e bem drenado; plantar o bulbo na profundidade adequada.",
+      "doencas_comuns": [
+        {
+          "nome": "Tulip fire (Botrytis)",
+          "sintomas": "Manchas marrons e mofo cinzento em folhas e flores, com deformação.",
+          "manejo": "Remover partes afetadas, melhorar ventilação, evitar molhar a folhagem e não adensar o plantio."
+        },
+        {
+          "nome": "Podridão basal do bulbo",
+          "sintomas": "Bulbo mole e escuro, folhas amareladas e crescimento fraco.",
+          "manejo": "Descartar bulbos doentes, melhorar drenagem e não replantar no mesmo substrato contaminado."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos, especialmente os bulbos; manter fora do alcance.",
+      "poda": "Cortar a flor assim que murchar e deixar as folhas secarem naturalmente; remover o bulbo se apodrecer.",
+      "adubacao": "Adubo rico em fósforo e potássio no plantio; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "tomateiro",
+      "nomes": [
+        "Tomateiro",
+        "Solanum lycopersicum",
+        "Tomate"
+      ],
+      "luz": "Sol pleno, no mínimo 6 horas de sol direto; em calor extremo, proteja o pé do sol da tarde.",
+      "rega_por_faixa_umidade": "Regue na base quando os primeiros 3 cm do solo secarem; mantenha umidade regular e evite molhar folhas.",
+      "faixa_temperatura": "18 °C a 30 °C; flores podem abortar acima de 34 °C.",
+      "solo": "Solo fértil, profundo, bem drenado e rico em matéria orgânica; tutorar e manter boa ventilação.",
+      "doencas_comuns": [
+        {
+          "nome": "Requeima (míldio)",
+          "sintomas": "Manchas irregulares encharcadas, escuras, com mofo branco na face inferior em tempo úmido; frutos podem apodrecer.",
+          "manejo": "Retirar folhas muito afetadas, aumentar espaçamento e ventilação, evitar molhar a folhagem e regar pela manhã. Em surtos, buscar orientação técnica local."
+        },
+        {
+          "nome": "Pinta-preta",
+          "sintomas": "Manchas marrons com anéis concêntricos nas folhas baixas, amarelecimento e queda.",
+          "manejo": "Fazer rotação de culturas, cobrir o solo com palha, retirar folhas doentes e evitar adensamento. Não adubar em excesso com nitrogênio."
+        },
+        {
+          "nome": "Podridão apical",
+          "sintomas": "Mancha escura e deprimida na base do fruto, por deficiência de cálcio ligada a rega irregular.",
+          "manejo": "Manter rega uniforme, evitar excesso de sal ou nitrogênio e corrigir o solo com orientação agronômica."
+        }
+      ],
+      "toxicidade_pet": "Folhas e frutos verdes são tóxicos para cães e gatos; frutos maduros são geralmente seguros, mas evite acesso.",
+      "poda": "Tutorar e remover brotos ladrões (axilares), folhas baixas doentes e frutos passados; podar em tempo seco e desinfetar ferramentas.",
+      "adubacao": "Adubar no plantio com matéria orgânica e fazer cobertura equilibrada no crescimento; evitar excesso de nitrogênio. Ajustar conforme análise de solo.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "macieira",
+      "nomes": [
+        "Macieira",
+        "Malus domestica"
+      ],
+      "luz": "Sol pleno, pelo menos 6 horas por dia.",
+      "rega_por_faixa_umidade": "Regar quando o solo secar nos primeiros 5 cm; manter umidade constante durante a frutificação.",
+      "faixa_temperatura": "15 °C a 28 °C; precisa de frio no inverno para boa floração.",
+      "solo": "Solo profundo, fértil e bem drenado; pH levemente ácido.",
+      "doencas_comuns": [
+        {
+          "nome": "Sarna da macieira",
+          "sintomas": "Manchas escuras nas folhas e crostas nos frutos, piora com umidade.",
+          "manejo": "Retirar folhas e frutos doentes, melhorar ventilação e recolher restos culturais no outono."
+        },
+        {
+          "nome": "Podridão amarga",
+          "sintomas": "Podridão marrom em frutos, geralmente começando em ferimentos.",
+          "manejo": "Evitar ferimentos, retirar frutos doentes e manter a copa arejada."
+        }
+      ],
+      "toxicidade_pet": "Sementes e caroços contêm cianogênicos; mantenha fora do alcance de pets.",
+      "poda": "Podar em dormência (inverno), removendo ramos secos, cruzados e doentes; abrir a copa para entrar luz.",
+      "adubacao": "Adubar conforme análise de solo, com matéria orgânica e equilíbrio de nutrientes; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "batateira",
+      "nomes": [
+        "Batateira",
+        "Solanum tuberosum",
+        "Batata"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar quando o solo começar a secar, mantendo umidade na tuberização; evitar encharcamento.",
+      "faixa_temperatura": "15 °C a 25 °C; calor acima de 30 °C prejudica a formação de tubérculos.",
+      "solo": "Solo solto, profundo, bem drenado e rico em matéria orgânica; amontoar as hastes.",
+      "doencas_comuns": [
+        {
+          "nome": "Requeima",
+          "sintomas": "Manchas escuras encharcadas em folhas, com mofo branco em ambiente úmido; tubérculos podem apodrecer.",
+          "manejo": "Retirar folhas afetadas, evitar molhar a folhagem, aumentar ventilação e não plantar em solo encharcado."
+        },
+        {
+          "nome": "Pinta-preta",
+          "sintomas": "Manchas marrons com anéis concêntricos e amarelecimento das folhas baixas.",
+          "manejo": "Rotação de culturas, palha sobre o solo, remoção de folhas doentes e rega na base."
+        }
+      ],
+      "toxicidade_pet": "Folhas, hastes e frutos verdes são tóxicos; tubérculos crus também podem causar mal-estar.",
+      "poda": "Não podar; amontoar as hastes e remover folhas doentes. Desbaste não é necessário.",
+      "adubacao": "Adubar no plantio com matéria orgânica e cobertura equilibrada; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 6
+    },
+    {
+      "id": "videira",
+      "nomes": [
+        "Videira",
+        "Vitis vinifera",
+        "Uva"
+      ],
+      "luz": "Sol pleno, 6 a 8 horas por dia.",
+      "rega_por_faixa_umidade": "Regar profundamente quando o solo secar; reduzir a rega na maturação dos frutos.",
+      "faixa_temperatura": "15 °C a 30 °C.",
+      "solo": "Solo bem drenado, profundo e moderadamente fértil.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão negra",
+          "sintomas": "Manchas marrons nas folhas e cachos com frutos enegrecidos e mumificados.",
+          "manejo": "Retirar cachos e folhas doentes, melhorar ventilação e recolher restos culturais."
+        },
+        {
+          "nome": "Míldio",
+          "sintomas": "Manchas amareladas na face superior e mofo branco na inferior, em tempo úmido.",
+          "manejo": "Abrir a copa, evitar molhar folhas e manter boa exposição solar; buscar manejo biológico permitido com orientação local."
+        }
+      ],
+      "toxicidade_pet": "Uvas e uvas-passas são tóxicas para cães e gatos, podendo causar insuficiência renal.",
+      "poda": "Podar em dormência, deixando varas e gemas produtivas conforme a variedade; despontar e arejar a copa no crescimento.",
+      "adubacao": "Adubar conforme análise de solo; matéria orgânica no inverno e equilíbrio sem excesso de nitrogênio.",
+      "intervalo_rega_dias": 8
+    },
+    {
+      "id": "milho",
+      "nomes": [
+        "Milho",
+        "Zea mays"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; manter umidade na floração e enchimento dos grãos.",
+      "faixa_temperatura": "18 °C a 32 °C.",
+      "solo": "Solo fértil, profundo e bem drenado, com nitrogênio disponível.",
+      "doencas_comuns": [
+        {
+          "nome": "Ferrugem comum",
+          "sintomas": "Pústulas alaranjadas ou marrons nas folhas, com redução de vigor.",
+          "manejo": "Rotação de culturas, eliminar restos infectados e preferir variedades resistentes."
+        },
+        {
+          "nome": "Cercosporiose (mancha cinzenta)",
+          "sintomas": "Lesões retangulares cinza-marrons entre as nervuras, que secam a folha.",
+          "manejo": "Rotação, boa nutrição e retirada de restos culturais; evitar adensamento."
+        }
+      ],
+      "toxicidade_pet": "Planta considerada não tóxica para cães e gatos.",
+      "poda": "Não podar; apenas remover folhas doentes e manter espaçamento. Desbastar no início se necessário.",
+      "adubacao": "Adubar no plantio e em cobertura conforme análise de solo; nitrogênio parcelado.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "pimentao",
+      "nomes": [
+        "Pimentão",
+        "Capsicum annuum",
+        "Pimenta-doce"
+      ],
+      "luz": "Sol pleno, 5 a 6 horas.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar, mantendo umidade uniforme.",
+      "faixa_temperatura": "20 °C a 30 °C.",
+      "solo": "Solo fértil, solto e bem drenado.",
+      "doencas_comuns": [
+        {
+          "nome": "Bacteriose",
+          "sintomas": "Manchas escuras encharcadas nas folhas e frutos, com halo amarelo.",
+          "manejo": "Retirar partes afetadas, evitar molhar a folhagem e não manejar a planta molhada. Desinfetar ferramentas."
+        },
+        {
+          "nome": "Podridão apical",
+          "sintomas": "Mancha escura na ponta do fruto, ligada a rega irregular e cálcio.",
+          "manejo": "Regularizar a rega, evitar excesso de nitrogênio e corrigir o solo com orientação agronômica."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico para cães e gatos; folhas e frutos podem irritar em grande quantidade.",
+      "poda": "Remover brotos abaixo da primeira bifurcação e folhas doentes; tutorar em vaso. Podar leve em tempo seco.",
+      "adubacao": "Adubar no plantio e em cobertura equilibrada; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "morangueiro",
+      "nomes": [
+        "Morangueiro",
+        "Fragaria x ananassa",
+        "Morango"
+      ],
+      "luz": "Sol pleno com proteção do calor forte.",
+      "rega_por_faixa_umidade": "Manter solo úmido, sem encharcar; regar na base e evitar molhar frutos.",
+      "faixa_temperatura": "15 °C a 26 °C.",
+      "solo": "Solo rico em matéria orgânica, ácido e bem drenado; usar cobertura morta.",
+      "doencas_comuns": [
+        {
+          "nome": "Queima-das-folhas",
+          "sintomas": "Manchas púrpuras nas folhas e morte de bordas, com queda de vigor.",
+          "manejo": "Retirar folhas doentes, melhorar ventilação e evitar excesso de umidade na coroa."
+        },
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em flores e frutos, em tempo úmido.",
+          "manejo": "Colher frutos maduros, retirar partes afetadas e evitar adensamento."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico para cães e gatos.",
+      "poda": "Remover estolões e folhas velhas; limpar a coroa. Renovar canteiros a cada ciclo.",
+      "adubacao": "Adubar no plantio com matéria orgânica e cobertura equilibrada; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "aboboreira",
+      "nomes": [
+        "Aboboreira",
+        "Cucurbita",
+        "Abóbora",
+        "Moranga"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar profundamente quando o solo secar; evitar água sobre folhas.",
+      "faixa_temperatura": "20 °C a 30 °C.",
+      "solo": "Solo fértil, profundo e bem drenado.",
+      "doencas_comuns": [
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco nas folhas, que amarelam e secam.",
+          "manejo": "Aumentar espaçamento, regar pela base e remover folhas muito afetadas."
+        },
+        {
+          "nome": "Podridão de frutos",
+          "sintomas": "Manchas moles em frutos em contato com solo úmido.",
+          "manejo": "Elevar frutos com palha, evitar encharcamento e colher os maduros."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Despontar ramas muito longas se necessário e remover folhas velhas; não podar flores femininas.",
+      "adubacao": "Adubar no plantio com matéria orgânica e cobertura equilibrada; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "pessegueiro",
+      "nomes": [
+        "Pessegueiro",
+        "Prunus persica",
+        "Pêssego"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar quando o solo secar; manter umidade na frutificação.",
+      "faixa_temperatura": "15 °C a 30 °C.",
+      "solo": "Solo profundo, bem drenado e levemente ácido.",
+      "doencas_comuns": [
+        {
+          "nome": "Bacteriose",
+          "sintomas": "Manchas escuras nas folhas e frutos, com queda de folhas.",
+          "manejo": "Podar para arejar, evitar ferimentos e retirar partes afetadas em tempo seco."
+        },
+        {
+          "nome": "Podridão parda",
+          "sintomas": "Frutos com podridão marrom e mofo acinzentado.",
+          "manejo": "Retirar frutos doentes, manter copa arejada e colher no ponto."
+        }
+      ],
+      "toxicidade_pet": "Folhas, caroços e sementes são tóxicos para cães e gatos.",
+      "poda": "Podar em dormência, removendo ramos secos e cruzados e renovando a produção; ralear frutos se necessário.",
+      "adubacao": "Adubar conforme análise de solo; matéria orgânica e equilíbrio de nutrientes.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "laranjeira",
+      "nomes": [
+        "Laranjeira",
+        "Citrus sinensis",
+        "Laranja"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros centímetros secarem; evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 32 °C; proteger de geadas.",
+      "solo": "Solo fértil, bem drenado e levemente ácido.",
+      "doencas_comuns": [
+        {
+          "nome": "Huanglongbing (greening)",
+          "sintomas": "Folhas amareladas assimétricas, frutos deformados e queda; doença sistêmica sem cura.",
+          "manejo": "Não plantar mudas sem certificação, controlar o vetor com orientação oficial e remover plantas confirmadamente doentes conforme a legislação local."
+        },
+        {
+          "nome": "Cancro cítrico",
+          "sintomas": "Lesões cortiçosas em folhas e frutos com halo amarelo.",
+          "manejo": "Retirar partes afetadas, desinfetar ferramentas e evitar transporte de material contaminado."
+        }
+      ],
+      "toxicidade_pet": "Óleos essenciais e casca em grande quantidade podem irritar cães e gatos; mantenha fora do alcance.",
+      "poda": "Podar apenas ramos secos, doentes e muito baixos; abrir a copa. Não fazer poda drástica.",
+      "adubacao": "Adubar conforme análise de solo, com matéria orgânica e micronutrientes; evitar excesso.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "mirtileiro",
+      "nomes": [
+        "Mirtileiro",
+        "Vaccinium corymbosum",
+        "Mirtilo",
+        "Blueberry"
+      ],
+      "luz": "Sol pleno a luz muito clara.",
+      "rega_por_faixa_umidade": "Manter solo úmido e ácido, sem encharcar; usar cobertura morta.",
+      "faixa_temperatura": "15 °C a 28 °C.",
+      "solo": "Solo muito ácido (pH 4,5 a 5,5), rico em matéria orgânica e bem drenado.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão radicular",
+          "sintomas": "Murcha, amarelecimento e raízes escuras em solo mal drenado.",
+          "manejo": "Melhorar drenagem, reduzir rega e usar substrato ácido e aerado."
+        },
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em flores e frutos.",
+          "manejo": "Aumentar ventilação, evitar molhar a folhagem e colher frutos maduros."
+        }
+      ],
+      "toxicidade_pet": "Considerado não tóxico para cães e gatos.",
+      "poda": "Podar em dormência, removendo ramos velhos e cruzados; manter a base arejada.",
+      "adubacao": "Adubo ácido específico para mirtilo, conforme análise; não usar calcário.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "cerejeira",
+      "nomes": [
+        "Cerejeira",
+        "Prunus avium",
+        "Cereja"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar quando o solo secar; evitar encharcamento.",
+      "faixa_temperatura": "15 °C a 28 °C.",
+      "solo": "Solo profundo, fértil e bem drenado.",
+      "doencas_comuns": [
+        {
+          "nome": "Oídio",
+          "sintomas": "Pó branco em folhas e brotos, com deformação.",
+          "manejo": "Podar para arejar, remover partes afetadas e evitar excesso de nitrogênio."
+        },
+        {
+          "nome": "Podridão parda",
+          "sintomas": "Flores e frutos com podridão marrom e mofo.",
+          "manejo": "Retirar flores e frutos doentes, manter copa ventilada e evitar ferimentos."
+        }
+      ],
+      "toxicidade_pet": "Folhas, caroços e sementes são tóxicos para cães e gatos.",
+      "poda": "Podar em dormência, removendo ramos secos e cruzados e arejando a copa; evitar poda pesada no verão.",
+      "adubacao": "Adubar conforme análise de solo; matéria orgânica e equilíbrio.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "framboeseira",
+      "nomes": [
+        "Framboeseira",
+        "Rubus idaeus",
+        "Framboesa"
+      ],
+      "luz": "Sol pleno a meia-sombra.",
+      "rega_por_faixa_umidade": "Manter solo úmido, sem encharcar; regar na base.",
+      "faixa_temperatura": "15 °C a 26 °C.",
+      "solo": "Solo rico em matéria orgânica, bem drenado e levemente ácido.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão radicular",
+          "sintomas": "Murcha e amarelecimento com solo úmido por longos períodos.",
+          "manejo": "Melhorar drenagem, reduzir rega e replantar em solo alto."
+        },
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em frutos e flores.",
+          "manejo": "Aumentar ventilação, colher frutos maduros e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "poda": "Podar as hastes que frutificaram após a colheita e remover hastes fracas; manter tutoramento.",
+      "adubacao": "Adubar com matéria orgânica no inverno e adubo equilibrado no crescimento.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "soja",
+      "nomes": [
+        "Soja",
+        "Glycine max"
+      ],
+      "luz": "Sol pleno.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; manter umidade na floração e enchimento de grãos.",
+      "faixa_temperatura": "20 °C a 30 °C.",
+      "solo": "Solo fértil, profundo e bem drenado, com boa fertilidade.",
+      "doencas_comuns": [
+        {
+          "nome": "Ferrugem asiática",
+          "sintomas": "Pequenas pústulas marrons na face inferior das folhas, com amarelecimento e queda.",
+          "manejo": "Monitorar desde o início do ciclo, usar variedades resistentes e seguir orientação técnica para manejo integrado."
+        },
+        {
+          "nome": "Míldio",
+          "sintomas": "Manchas amareladas na face superior e mofo na inferior.",
+          "manejo": "Evitar adensamento, melhorar ventilação e rotação de culturas."
+        }
+      ],
+      "toxicidade_pet": "Planta considerada não tóxica para cães e gatos; sementes cruas podem causar desconforto.",
+      "poda": "Não podar; manter densidade adequada e remover plantas doentes.",
+      "adubacao": "Adubar conforme análise de solo e inoculação; evitar excesso de nitrogênio.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "areca",
+      "nomes": [
+        "Areca",
+        "Dypsis lutescens",
+        "Palmeira-areca"
+      ],
+      "luz": "Luz indireta muito clara, sem sol forte direto.",
+      "rega_por_faixa_umidade": "Manter o substrato levemente úmido, regando quando a superfície secar; evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 28 °C.",
+      "solo": "Substrato fértil, solto e bem drenado, com matéria orgânica.",
+      "poda": "Cortar folhas secas e hastes velhas na base; remover folhas amareladas sem puxar.",
+      "adubacao": "Adubo para palmeiras ou equilibrado diluído na primavera/verão, sem excesso.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha com solo encharcado e raízes escuras.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar em substrato novo se necessário."
+        },
+        {
+          "nome": "Ácaro-rajado",
+          "sintomas": "Pontilhado amarelado e teias finas na face inferior das folhas.",
+          "manejo": "Aumentar umidade, lavar as folhas e isolar a planta."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "ave-do-paraiso",
+      "nomes": [
+        "Ave-do-paraíso",
+        "Strelitzia reginae",
+        "Estrelícia"
+      ],
+      "luz": "Sol pleno a luz muito clara; tolera sol da manhã.",
+      "rega_por_faixa_umidade": "Regar profundamente quando o solo secar nos primeiros centímetros; evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 28 °C.",
+      "solo": "Solo fértil, profundo e bem drenado.",
+      "poda": "Remover folhas secas e flores velhas na base; limpar hastes danificadas.",
+      "adubacao": "Adubo equilibrado na primavera/verão; evitar excesso de nitrogênio.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha em solo mal drenado.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar se necessário."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras nas folhas em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; manter fora do alcance.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "calateia",
+      "nomes": [
+        "Calateia",
+        "Calathea",
+        "Ctenanthe",
+        "Rattlesnake plant"
+      ],
+      "luz": "Luz indireta clara a meia-sombra; evitar sol direto.",
+      "rega_por_faixa_umidade": "Manter o substrato levemente úmido, sem encharcar, e alta umidade do ar.",
+      "faixa_temperatura": "18 °C a 26 °C.",
+      "solo": "Substrato aerado, rico em matéria orgânica e com boa retenção de umidade.",
+      "poda": "Remover folhas secas e hastes velhas; cortar na base com ferramenta limpa.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas no crescimento; evitar excesso.",
+      "doencas_comuns": [
+        {
+          "nome": "Pontas secas",
+          "sintomas": "Bordas e pontas das folhas secas por baixa umidade.",
+          "manejo": "Aumentar a umidade ao redor, evitar sol direto e ajustar a rega."
+        },
+        {
+          "nome": "Ácaro-rajado",
+          "sintomas": "Pontilhado amarelado e teias finas em ambiente seco.",
+          "manejo": "Aumentar umidade, lavar as folhas e isolar a planta."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "aspidistra",
+      "nomes": [
+        "Aspidistra",
+        "Cast iron plant",
+        "Aspidistra elatior"
+      ],
+      "luz": "Meia-sombra a luz indireta; tolera baixa luminosidade.",
+      "rega_por_faixa_umidade": "Regar quando o substrato secar; tolera esquecimentos, mas não encharcamento.",
+      "faixa_temperatura": "10 °C a 28 °C.",
+      "solo": "Solo fértil, solto e bem drenado.",
+      "poda": "Remover folhas velhas e amareladas na base; limpar folhas com pano úmido.",
+      "adubacao": "Adubo equilibrado diluído 2 a 3 vezes no verão; pouco no inverno.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e base mole em solo úmido.",
+          "manejo": "Reduzir rega, melhorar drenagem e remover partes podres."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões marrons nas folhas em ambiente abafado.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 10
+    },
+    {
+      "id": "aglaonema",
+      "nomes": [
+        "Aglaonema",
+        "Chinese evergreen",
+        "Aglaonema commutatum"
+      ],
+      "luz": "Luz indireta a meia-sombra; evitar sol direto.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; manter umidade moderada sem encharcar.",
+      "faixa_temperatura": "18 °C a 27 °C.",
+      "solo": "Substrato aerado e bem drenado.",
+      "poda": "Remover folhas velhas e hastes danificadas; usar luvas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas no crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha com solo encharcado.",
+          "manejo": "Reduzir rega, replantar em substrato drenante e remover raízes podres."
+        },
+        {
+          "nome": "Mancha bacteriana",
+          "sintomas": "Lesões encharcadas escuras que aumentam em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos por oxalato de cálcio.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "pilea",
+      "nomes": [
+        "Pilea",
+        "Chinese money plant",
+        "Pilea peperomioides",
+        "Planta-moeda"
+      ],
+      "luz": "Luz indireta clara; evitar sol forte.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 26 °C.",
+      "solo": "Substrato leve, aerado e bem drenado.",
+      "poda": "Pinçar o topo e remover folhas velhas; separar filhotes para propagar.",
+      "adubacao": "Adubo equilibrado diluído a cada 6 semanas no crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e base mole em solo úmido.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar."
+        },
+        {
+          "nome": "Edema",
+          "sintomas": "Pontos cortiçosos na face inferior das folhas por rega irregular.",
+          "manejo": "Ajustar a rega e evitar solo constantemente úmido."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "crisantemo",
+      "nomes": [
+        "Crisântemo",
+        "Chrysanthemum",
+        "Mum"
+      ],
+      "luz": "Sol pleno com proteção do calor forte.",
+      "rega_por_faixa_umidade": "Manter solo úmido, sem encharcar; regar na base.",
+      "faixa_temperatura": "10 °C a 24 °C.",
+      "solo": "Solo fértil, bem drenado e rico em matéria orgânica.",
+      "poda": "Pinçar brotos para adensar e remover flores murchas; podar após a floração.",
+      "adubacao": "Adubo equilibrado a cada 4 semanas no crescimento; evitar excesso de nitrogênio.",
+      "doencas_comuns": [
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em flores e folhas em tempo úmido.",
+          "manejo": "Aumentar ventilação, remover partes afetadas e evitar molhar flores."
+        },
+        {
+          "nome": "Ferrugem",
+          "sintomas": "Pústulas alaranjadas na face inferior das folhas.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar excesso de umidade."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; manter fora do alcance.",
+      "intervalo_rega_dias": 3
+    },
+    {
+      "id": "dracaena",
+      "nomes": [
+        "Dracaena",
+        "Dracaena fragrans",
+        "Dracaena marginata",
+        "Tronco-da-felicidade"
+      ],
+      "luz": "Luz indireta clara; tolera meia-sombra.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros centímetros secarem; evitar água acumulada no prato.",
+      "faixa_temperatura": "15 °C a 28 °C.",
+      "solo": "Substrato solto e bem drenado.",
+      "poda": "Remover folhas secas e cortar hastes danificadas; limpar a folhagem.",
+      "adubacao": "Adubo equilibrado diluído a cada 2 meses no crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e base mole em solo encharcado.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar se necessário."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões marrons com borda amarela em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; causa irritação e salivação.",
+      "intervalo_rega_dias": 8
+    },
+    {
+      "id": "hera",
+      "nomes": [
+        "Hera-inglesa",
+        "English ivy",
+        "Hedera helix"
+      ],
+      "luz": "Luz indireta a meia-sombra; tolera sol da manhã.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; manter umidade moderada.",
+      "faixa_temperatura": "10 °C a 24 °C.",
+      "solo": "Substrato fértil e bem drenado.",
+      "poda": "Podar pontas para controlar e adensar; remover folhas secas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas no crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Ácaro-rajado",
+          "sintomas": "Pontilhado amarelado e teias finas em ambiente seco.",
+          "manejo": "Aumentar umidade, lavar as folhas e isolar a planta."
+        },
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha em solo úmido.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; manter fora do alcance.",
+      "intervalo_rega_dias": 6
+    },
+    {
+      "id": "lirio-do-vale",
+      "nomes": [
+        "Lírio-do-vale",
+        "Convallaria majalis",
+        "Lily of the valley"
+      ],
+      "luz": "Meia-sombra a sombra clara.",
+      "rega_por_faixa_umidade": "Manter solo úmido e fresco, sem encharcar.",
+      "faixa_temperatura": "10 °C a 20 °C.",
+      "solo": "Solo rico em matéria orgânica, úmido e bem drenado.",
+      "poda": "Remover flores e folhas secas; deixar o rizoma no solo para rebrotar.",
+      "adubacao": "Matéria orgânica leve no plantio; evitar excesso de nitrogênio.",
+      "doencas_comuns": [
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões marrons em folhas em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        },
+        {
+          "nome": "Podridão de rizoma",
+          "sintomas": "Base mole e escura, folhas amareladas.",
+          "manejo": "Melhorar drenagem, remover partes podres e replantar em solo novo."
+        }
+      ],
+      "toxicidade_pet": "Muito tóxica para cães, gatos e humanos; manter totalmente fora do alcance.",
+      "intervalo_rega_dias": 4
+    },
+    {
+      "id": "narciso",
+      "nomes": [
+        "Narciso",
+        "Daffodil",
+        "Narcissus"
+      ],
+      "luz": "Sol pleno a meia-sombra.",
+      "rega_por_faixa_umidade": "Regar durante o crescimento e floração, deixando secar após as folhas amarelarem.",
+      "faixa_temperatura": "10 °C a 20 °C.",
+      "solo": "Solo bem drenado, fértil e leve.",
+      "poda": "Cortar flores murchas e deixar a folhagem secar naturalmente; não cortar antes.",
+      "adubacao": "Adubo para bulbos no plantio e no início do crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão basal",
+          "sintomas": "Bulbo mole e escuro, folhas amareladas.",
+          "manejo": "Descartar bulbos doentes, melhorar drenagem e não replantar no mesmo solo."
+        },
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo acinzentado em flores e folhas.",
+          "manejo": "Arejar, remover partes afetadas e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos, especialmente os bulbos.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "jacinto",
+      "nomes": [
+        "Jacinto",
+        "Hyacinth",
+        "Hyacinthus orientalis"
+      ],
+      "luz": "Sol pleno a meia-sombra.",
+      "rega_por_faixa_umidade": "Manter solo úmido durante o crescimento; reduzir após a floração.",
+      "faixa_temperatura": "10 °C a 20 °C.",
+      "solo": "Solo bem drenado e fértil.",
+      "poda": "Cortar a haste floral murcha e deixar as folhas secarem.",
+      "adubacao": "Adubo para bulbos no plantio; evitar excesso.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do bulbo",
+          "sintomas": "Bulbo mole e escuro, crescimento fraco.",
+          "manejo": "Descartar bulbos afetados, melhorar drenagem e não regar em excesso."
+        },
+        {
+          "nome": "Mofo cinzento",
+          "sintomas": "Mofo em folhas e flores em ambiente úmido.",
+          "manejo": "Arejar e remover partes afetadas."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; manter fora do alcance.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "pachira",
+      "nomes": [
+        "Árvore-do-dinheiro",
+        "Pachira aquatica",
+        "Money tree"
+      ],
+      "luz": "Luz indireta muito clara; evitar sol forte direto.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros centímetros secarem; evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 28 °C.",
+      "solo": "Substrato fértil, solto e bem drenado.",
+      "poda": "Podar para controlar altura e arejar; remover folhas amareladas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 a 6 semanas no crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e tronco mole em solo encharcado.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar se necessário."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras nas folhas em ambiente abafado.",
+          "manejo": "Retirar folhas afetadas e arejar."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "monstera",
+      "nomes": [
+        "Monstera",
+        "Monstera deliciosa",
+        "Costela-de-adão"
+      ],
+      "luz": "Luz indireta clara; evitar sol direto forte.",
+      "rega_por_faixa_umidade": "Regar quando os primeiros 3 cm secarem; manter umidade sem encharcar.",
+      "faixa_temperatura": "18 °C a 28 °C.",
+      "solo": "Substrato aerado, rico em matéria orgânica e bem drenado.",
+      "poda": "Remover folhas velhas e hastes danificadas; tutorar e controlar o tamanho.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas na primavera/verão.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha com solo encharcado.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar em substrato novo."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras em folhas em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos por oxalato de cálcio.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "lirio-da-paz",
+      "nomes": [
+        "Lírio-da-paz",
+        "Spathiphyllum",
+        "Peace lily"
+      ],
+      "luz": "Luz indireta a meia-sombra; tolera baixa luminosidade.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; a planta murcha quando falta água, mas não tolera encharcamento.",
+      "faixa_temperatura": "18 °C a 27 °C.",
+      "solo": "Substrato aerado, rico em matéria orgânica e bem drenado.",
+      "poda": "Remover folhas velhas e flores murchas na base.",
+      "adubacao": "Adubo equilibrado diluído a cada 6 semanas no crescimento.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha com solo encharcado.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar."
+        },
+        {
+          "nome": "Mancha bacteriana",
+          "sintomas": "Lesões encharcadas escuras em folhas.",
+          "manejo": "Retirar folhas afetadas, arejar e evitar molhar a folhagem."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos por oxalato de cálcio.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "bico-de-papagaio",
+      "nomes": [
+        "Poinsétia",
+        "Bico-de-papagaio",
+        "Euphorbia pulcherrima",
+        "Poinsettia"
+      ],
+      "luz": "Luz indireta muito clara a sol da manhã.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; evitar encharcamento e água no prato.",
+      "faixa_temperatura": "18 °C a 27 °C.",
+      "solo": "Substrato fértil e bem drenado.",
+      "poda": "Podar após a floração para renovar; remover folhas velhas.",
+      "adubacao": "Adubo equilibrado diluído no crescimento; evitar excesso de nitrogênio.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e base mole em solo úmido.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras em folhas em ambiente abafado.",
+          "manejo": "Retirar folhas afetadas e arejar."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; a seiva pode irritar pele e boca.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "hypoestes",
+      "nomes": [
+        "Planta-pingo-de-ouro",
+        "Hypoestes phyllostachya",
+        "Polka dot plant"
+      ],
+      "luz": "Luz indireta clara; evitar sol direto forte.",
+      "rega_por_faixa_umidade": "Manter solo levemente úmido, sem encharcar.",
+      "faixa_temperatura": "18 °C a 26 °C.",
+      "solo": "Substrato aerado e rico em matéria orgânica.",
+      "poda": "Pinçar o topo para adensar e remover flores para manter as folhas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas murchas e base mole em solo úmido.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras em folhas em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas e arejar."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 5
+    },
+    {
+      "id": "beaucarnea",
+      "nomes": [
+        "Palmeira-ponytail",
+        "Beaucarnea recurvata",
+        "Ponytail palm"
+      ],
+      "luz": "Sol pleno a luz muito clara.",
+      "rega_por_faixa_umidade": "Regar quando o substrato estiver seco; armazena água no tronco.",
+      "faixa_temperatura": "15 °C a 30 °C.",
+      "solo": "Substrato muito drenante, com pedra-pomes e areia.",
+      "poda": "Remover folhas secas na base; não cortar o tronco.",
+      "adubacao": "Adubo para suculentas diluído, raramente, na primavera/verão.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do tronco",
+          "sintomas": "Base mole e escura, folhas amareladas.",
+          "manejo": "Suspender rega, remover partes moles e replantar em substrato seco."
+        },
+        {
+          "nome": "Cochonilha",
+          "sintomas": "Pontos algodoados nas folhas e axilas.",
+          "manejo": "Remover com cotonete e álcool e melhorar ventilação."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 14
+    },
+    {
+      "id": "sagu",
+      "nomes": [
+        "Palmeira-sagu",
+        "Cycas revoluta",
+        "Sago palm"
+      ],
+      "luz": "Sol pleno a luz muito clara.",
+      "rega_por_faixa_umidade": "Regar quando o solo secar; evitar encharcamento.",
+      "faixa_temperatura": "15 °C a 30 °C.",
+      "solo": "Substrato arenoso e muito bem drenado.",
+      "poda": "Remover folhas secas na base; usar luvas.",
+      "adubacao": "Adubo equilibrado diluído raramente na primavera/verão.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do caudex",
+          "sintomas": "Base mole e escura, folhas amareladas.",
+          "manejo": "Reduzir rega, melhorar drenagem e remover partes podres."
+        },
+        {
+          "nome": "Cochonilha",
+          "sintomas": "Pontos algodoados nas folhas.",
+          "manejo": "Remover e melhorar ventilação."
+        }
+      ],
+      "toxicidade_pet": "Muito tóxica para cães e gatos, especialmente as sementes.",
+      "intervalo_rega_dias": 14
+    },
+    {
+      "id": "schefflera",
+      "nomes": [
+        "Schefflera",
+        "Schefflera arboricola",
+        "Árvore-guarda-chuva"
+      ],
+      "luz": "Luz indireta clara a meia-sombra.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; evitar encharcamento.",
+      "faixa_temperatura": "18 °C a 27 °C.",
+      "solo": "Substrato fértil e bem drenado.",
+      "poda": "Podar para controlar altura e arejar; remover folhas velhas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 a 6 semanas.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Folhas amareladas e murcha em solo úmido.",
+          "manejo": "Reduzir rega, melhorar drenagem e replantar."
+        },
+        {
+          "nome": "Cochonilha",
+          "sintomas": "Pontos algodoados e folhas pegajosas.",
+          "manejo": "Remover e melhorar ventilação."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos.",
+      "intervalo_rega_dias": 7
+    },
+    {
+      "id": "tradescantia",
+      "nomes": [
+        "Tradescântia",
+        "Tradescantia zebrina",
+        "Tradescantia pallida",
+        "Lambari"
+      ],
+      "luz": "Luz indireta clara a sol da manhã.",
+      "rega_por_faixa_umidade": "Regar quando a superfície secar; evitar encharcamento.",
+      "faixa_temperatura": "15 °C a 27 °C.",
+      "solo": "Substrato aerado e bem drenado.",
+      "poda": "Pinçar pontas para adensar e remover hastes secas.",
+      "adubacao": "Adubo equilibrado diluído a cada 4 semanas.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão de raiz",
+          "sintomas": "Hastes moles e folhas amareladas.",
+          "manejo": "Reduzir rega, replantar em substrato drenante e propagar partes sadias."
+        },
+        {
+          "nome": "Mancha foliar",
+          "sintomas": "Lesões escuras em folhas em ambiente úmido.",
+          "manejo": "Retirar folhas afetadas e arejar."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; pode irritar a pele.",
+      "intervalo_rega_dias": 6
+    },
+    {
+      "id": "dionaea",
+      "nomes": [
+        "Dionaea",
+        "Venus flytrap",
+        "Dionaea muscipula"
+      ],
+      "luz": "Sol pleno; precisa de muita luz para armadilhas fortes.",
+      "rega_por_faixa_umidade": "Manter o substrato sempre úmido com água destilada ou de chuva; nunca adubar.",
+      "faixa_temperatura": "15 °C a 30 °C.",
+      "solo": "Esfagno puro ou mistura pobre em nutrientes, sem terra fértil.",
+      "poda": "Cortar armadilhas e folhas pretas na base; não fechar armadilhas sem necessidade.",
+      "adubacao": "Não adubar; a planta obtém nutrientes dos insetos.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do rizoma",
+          "sintomas": "Base escura e mole, folhas murchas.",
+          "manejo": "Melhorar drenagem, usar água limpa e remover partes podres."
+        },
+        {
+          "nome": "Mofo",
+          "sintomas": "Mofo branco ou cinza em folhas e substrato.",
+          "manejo": "Aumentar ventilação e evitar água parada."
+        }
+      ],
+      "toxicidade_pet": "Considerada não tóxica para cães e gatos.",
+      "intervalo_rega_dias": 2
+    },
+    {
+      "id": "yucca",
+      "nomes": [
+        "Yucca",
+        "Yucca elephantipes",
+        "Pé-de-elefante"
+      ],
+      "luz": "Sol pleno a luz muito clara.",
+      "rega_por_faixa_umidade": "Regar quando o substrato secar; tolera seca e odeia encharcamento.",
+      "faixa_temperatura": "10 °C a 30 °C.",
+      "solo": "Substrato arenoso e muito bem drenado.",
+      "poda": "Remover folhas secas na base; cortar hastes danificadas.",
+      "adubacao": "Adubo equilibrado diluído raramente na primavera/verão.",
+      "doencas_comuns": [
+        {
+          "nome": "Podridão do tronco",
+          "sintomas": "Base mole e escura, folhas amareladas.",
+          "manejo": "Reduzir rega, melhorar drenagem e remover partes podres."
+        },
+        {
+          "nome": "Cochonilha",
+          "sintomas": "Pontos algodoados nas folhas.",
+          "manejo": "Remover e melhorar ventilação."
+        }
+      ],
+      "toxicidade_pet": "Tóxica para cães e gatos; causa irritação gastrointestinal.",
+      "intervalo_rega_dias": 12
+    }
+  ]
+}

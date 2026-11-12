@@ -1,0 +1,286 @@
+{
+  "labels": {
+    "African Violet (Saintpaulia ionantha)": {
+      "species": "Violeta-africana",
+      "speciesId": "violeta",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Aloe Vera": {
+      "species": "Aloe vera",
+      "speciesId": "suculentas",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Anthurium (Anthurium andraeanum)": {
+      "species": "Antúrio",
+      "speciesId": "anturio",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Areca Palm (Dypsis lutescens)": {
+      "species": "Areca",
+      "speciesId": "areca",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Asparagus Fern (Asparagus setaceus)": {
+      "species": "Aspargo-samambaia",
+      "speciesId": "samambaia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Begonia (Begonia spp.)": {
+      "species": "Begônia",
+      "speciesId": "begonia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Bird of Paradise (Strelitzia reginae)": {
+      "species": "Ave-do-paraíso",
+      "speciesId": "ave-do-paraiso",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Birds Nest Fern (Asplenium nidus)": {
+      "species": "Samambaia-ninho-de-pássaro",
+      "speciesId": "samambaia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Boston Fern (Nephrolepis exaltata)": {
+      "species": "Samambaia-de-boston",
+      "speciesId": "samambaia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Calathea": {
+      "species": "Calateia",
+      "speciesId": "calateia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Cast Iron Plant (Aspidistra elatior)": {
+      "species": "Aspidistra",
+      "speciesId": "aspidistra",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Chinese evergreen (Aglaonema)": {
+      "species": "Aglaonema",
+      "speciesId": "aglaonema",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Chinese Money Plant (Pilea peperomioides)": {
+      "species": "Pilea",
+      "speciesId": "pilea",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Christmas Cactus (Schlumbergera bridgesii)": {
+      "species": "Cacto-de-natal",
+      "speciesId": "suculentas",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Chrysanthemum": {
+      "species": "Crisântemo",
+      "speciesId": "crisantemo",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Ctenanthe": {
+      "species": "Ctenanthe",
+      "speciesId": "calateia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Daffodils (Narcissus spp.)": {
+      "species": "Narciso",
+      "speciesId": "narciso",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Dracaena": {
+      "species": "Dracaena",
+      "speciesId": "dracaena",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Dumb Cane (Dieffenbachia spp.)": {
+      "species": "Comigo-ninguém-pode",
+      "speciesId": "comigo-ninguem-pode",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Elephant Ear (Alocasia spp.)": {
+      "species": "Orelha-de-elefante",
+      "speciesId": "pata-de-elefante",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "English Ivy (Hedera helix)": {
+      "species": "Hera-inglesa",
+      "speciesId": "hera",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Hyacinth (Hyacinthus orientalis)": {
+      "species": "Jacinto",
+      "speciesId": "jacinto",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Iron Cross begonia (Begonia masoniana)": {
+      "species": "Begônia-cruz-de-ferro",
+      "speciesId": "begonia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Jade plant (Crassula ovata)": {
+      "species": "Planta-jade",
+      "speciesId": "suculentas",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Kalanchoe": {
+      "species": "Kalanchoe",
+      "speciesId": "kalanchoe",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Lilium (Hemerocallis)": {
+      "species": "Lírio",
+      "speciesId": "lirio",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Lily of the valley (Convallaria majalis)": {
+      "species": "Lírio-do-vale",
+      "speciesId": "lirio-do-vale",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Money Tree (Pachira aquatica)": {
+      "species": "Árvore-do-dinheiro",
+      "speciesId": "pachira",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Monstera Deliciosa (Monstera deliciosa)": {
+      "species": "Monstera",
+      "speciesId": "monstera",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Orchid": {
+      "species": "Orquídea",
+      "speciesId": "orquidea-phalaenopsis",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Parlor Palm (Chamaedorea elegans)": {
+      "species": "Palmeira-de-sala",
+      "speciesId": "palmeira-rafis",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Peace lily": {
+      "species": "Lírio-da-paz",
+      "speciesId": "lirio-da-paz",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Poinsettia (Euphorbia pulcherrima)": {
+      "species": "Poinsétia",
+      "speciesId": "bico-de-papagaio",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Polka Dot Plant (Hypoestes phyllostachya)": {
+      "species": "Planta-pingo-de-ouro",
+      "speciesId": "hypoestes",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Ponytail Palm (Beaucarnea recurvata)": {
+      "species": "Palmeira-ponytail",
+      "speciesId": "beaucarnea",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Pothos (Ivy arum)": {
+      "species": "Jiboia",
+      "speciesId": "jiboia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Prayer Plant (Maranta leuconeura)": {
+      "species": "Maranta",
+      "speciesId": "maranta",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Rattlesnake Plant (Calathea lancifolia)": {
+      "species": "Calateia-rattlesnake",
+      "speciesId": "calateia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Rubber Plant (Ficus elastica)": {
+      "species": "Seringueira",
+      "speciesId": "ficus",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Sago Palm (Cycas revoluta)": {
+      "species": "Palmeira-sagu",
+      "speciesId": "sagu",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Schefflera": {
+      "species": "Schefflera",
+      "speciesId": "schefflera",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Snake plant (Sanseviera)": {
+      "species": "Espada-de-são-jorge",
+      "speciesId": "espada-de-sao-jorge",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Tradescantia": {
+      "species": "Tradescântia",
+      "speciesId": "tradescantia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Tulip": {
+      "species": "Tulipa",
+      "speciesId": "tulipa",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Venus Flytrap": {
+      "species": "Dionaea",
+      "speciesId": "dionaea",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Yucca": {
+      "species": "Yucca",
+      "speciesId": "yucca",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "ZZ Plant (Zamioculcas zamiifolia)": {
+      "species": "Zamioculca",
+      "speciesId": "zamioculca",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    }
+  }
+}
