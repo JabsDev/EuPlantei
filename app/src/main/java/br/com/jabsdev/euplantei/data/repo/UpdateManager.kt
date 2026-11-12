@@ -19,6 +19,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import okhttp3.HttpUrl.Companion.toHttpUrl
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
@@ -137,8 +138,13 @@ class UpdateManager(
     }
 
     private suspend fun fetchLatest(): UpdateInfo = withContext(Dispatchers.IO) {
+        // O CDN do GitHub pode manter o redirecionamento de "latest" em cache
+        // por alguns minutos; o parâmetro evita anunciar uma versão antiga.
+        val url = METADATA_URL.toHttpUrl().newBuilder()
+            .addQueryParameter("t", System.currentTimeMillis().toString())
+            .build()
         val request = Request.Builder()
-            .url(METADATA_URL)
+            .url(url)
             .header("Accept", "application/json")
             .header("Cache-Control", "no-cache")
             .header("User-Agent", "EuPlantei/${BuildConfig.VERSION_NAME} (Android)")
