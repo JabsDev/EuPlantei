@@ -121,6 +121,12 @@
         "Echeveria",
         "Haworthia",
         "Sedum",
+        "Aloe vera",
+        "Babosa",
+        "Cacto-de-natal",
+        "Schlumbergera",
+        "Planta-jade",
+        "Crassula ovata",
         "Cactos e suculentas"
       ],
       "luz": "Sol pleno a luz muito clara; a maioria precisa de 4 a 6 horas de sol direto. Aclimatar aos poucos para não queimar.",
@@ -381,7 +387,9 @@
         "Ficus lyrata",
         "Ficus elastica",
         "Figueira-de-sala",
-        "Ficus benjamina"
+        "Ficus benjamina",
+        "Seringueira",
+        "Rubber plant"
       ],
       "luz": "Luz indireta muito clara; algumas espécies toleram sol da manhã. Evitar mudanças bruscas de posição.",
       "rega_por_faixa_umidade": "Regar quando os primeiros 3 cm do solo secarem; não encharcar. Ficus perde folhas com excesso ou falta de água.",

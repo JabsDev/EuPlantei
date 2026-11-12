@@ -23,9 +23,9 @@ import kotlin.math.exp
 import kotlin.math.roundToInt
 
 /**
- * Classificador de visão PlantVillage com MobileNetV2 quantizado (dynamic range).
- * A entrada do modelo é float32 [1,224,224,3], normalizada para [-1,1] — o mesmo
- * pré-processamento usado no treinamento MobileNetV2.
+ * Classificador de visão TFLite.
+ * A entrada é float32 [1,224,224,3]; `normalizeToUnit` escolhe [0,1] (PlantVillage)
+ * ou [0,255] (modelo de espécies, cuja normalização ImageNet está no próprio grafo).
  */
 class PlantClassifier(
     context: Context,

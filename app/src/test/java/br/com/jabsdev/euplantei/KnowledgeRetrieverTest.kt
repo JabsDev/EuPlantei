@@ -89,18 +89,28 @@ class KnowledgeRetrieverTest {
     }
 
     @Test
-    fun `todos os labels de plantas de interior apontam para um perfil`() {
+    fun `todos os labels do modelo de especies apontam para um perfil`() {
         val baseFile = File("src/main/assets/knowledge/plants.json")
         val base = Json { ignoreUnknownKeys = true }.decodeFromString<KnowledgeBase>(baseFile.readText())
         val ids = base.plantas.map { it.id }.toSet()
         val labelsFile = File("src/main/assets/models/houseplant_labels_ptbr.json")
         val root = Json.parseToJsonElement(labelsFile.readText()).jsonObject
         val labels = root["labels"]!!.jsonObject
-        assertEquals(47, labels.size)
+        assertEquals(59, labels.size)
         labels.values.forEach { value ->
             val speciesId = value.jsonObject["speciesId"]!!.jsonPrimitive.content
             assertTrue("Perfil ausente para $speciesId", speciesId in ids)
+            val species = value.jsonObject["species"]!!.jsonPrimitive.content
+            assertTrue(
+                "Recuperação vazia para $species",
+                KnowledgeRetriever().retrieve(base, species, "").hasData,
+            )
         }
+        val ordered = File("src/main/assets/models/houseplant_labels.txt")
+            .readLines()
+            .filter { it.isNotBlank() }
+        assertEquals(ordered.size, labels.size)
+        ordered.forEach { assertTrue("Label fora do JSON: $it", it in labels) }
     }
 
     @Test

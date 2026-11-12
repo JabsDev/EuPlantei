@@ -1,0 +1,8 @@
+.venv/
+data/
+artifacts/
+__pycache__/
+*.tar
+*.pt
+*.onnx
+*.tflite

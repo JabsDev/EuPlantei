@@ -11,7 +11,7 @@ The upstream `LICENSE` file is kept inside the vendored directory.
 
 Source: https://www.tensorflow.org/lite
 License: Apache License 2.0
-Used for on-device inference of the plant disease model.
+Used for on-device inference of the plant disease and species models.
 
 ## MobileNetV2 / PlantVillage model
 
@@ -67,13 +67,29 @@ Not included in this build. It is not an image dataset and cannot train the
 TFLite plant classifier. It could be used for local RAG or LLM fine-tuning,
 subject to the source-document rights and Hugging Face access approval.
 
-## Houseplant Species TFLite model
+## EuPlantei Species model (self-trained)
 
-Dataset: https://huggingface.co/datasets/kakasher/house-plant-species
-Model: https://huggingface.co/AlyModrik41/House-Plants-Classification-TFLite-Model
-Dataset: 14,790 images, 47 houseplant classes. The dataset card declares
-CC BY 3.0 but also asks for personal use due to image copyright considerations.
-The model repository has no explicit license. Included for this personal,
-non-commercial project; review the source rights before redistribution or
-commercial use.
-Input: float32 [1,224,224,3], [0,255]; output: [1,47] softmax.
+Model: `app/src/main/assets/models/houseplant_model.tflite` — EfficientNet-B0
+fine-tuned with 59 output labels covering 52 `speciesId` of the local knowledge
+base. Input float32 [1,224,224,3] in [0,255]; output [1,59] softmax; TFLite
+float16, about 8.2 MB. Reproducible pipeline: `training/`; model card:
+`training/model_card.md`.
+
+Training data:
+- House Plant Species: https://huggingface.co/datasets/kakasher/house-plant-species
+  14,790 images, 47 classes, dataset card declares CC BY 3.0 but also asks for
+  personal use due to image copyright considerations.
+- iNaturalist: https://www.inaturalist.org/ — research-grade observations with
+  photos licensed CC0, CC BY or CC BY-SA, Brazil-first. Per-photo attribution is
+  recorded in `training/data/inat/manifest.csv` (not shipped in the APK).
+
+The model is provided for this personal, non-commercial project. Review the
+dataset and photo licenses before redistribution or commercial use. In
+particular, CC BY-SA photos may impose share-alike obligations on derived
+material.
+
+## Houseplant Species dataset (previous model)
+
+The previous 47-class model was based on the same House Plant Species dataset
+and the public TFLite model `AlyModrik41/House-Plants-Classification-TFLite-Model`.
+It has been replaced by the self-trained EuPlantei Species model above.

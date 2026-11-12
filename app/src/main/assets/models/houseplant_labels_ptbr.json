@@ -281,6 +281,78 @@
       "speciesId": "zamioculca",
       "condition": "Condição a avaliar",
       "healthy": false
+    },
+    "Rosa": {
+      "species": "Rosa",
+      "speciesId": "rosa",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Jasmim": {
+      "species": "Jasmim",
+      "speciesId": "jasmim",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Hortênsia": {
+      "species": "Hortênsia",
+      "speciesId": "hortensia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Gerânio": {
+      "species": "Gerânio",
+      "speciesId": "geranio",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Cravo": {
+      "species": "Cravo",
+      "speciesId": "cravo",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Lavanda": {
+      "species": "Lavanda",
+      "speciesId": "lavanda",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Alecrim": {
+      "species": "Alecrim",
+      "speciesId": "alecrim",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Manjericão": {
+      "species": "Manjericão",
+      "speciesId": "manjericao",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Hortelã": {
+      "species": "Hortelã",
+      "speciesId": "hortela",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Peperômia": {
+      "species": "Peperômia",
+      "speciesId": "peperomia",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Clorofito": {
+      "species": "Clorofito",
+      "speciesId": "clorofito",
+      "condition": "Condição a avaliar",
+      "healthy": false
+    },
+    "Girassol": {
+      "species": "Girassol",
+      "speciesId": "girassol",
+      "condition": "Condição a avaliar",
+      "healthy": false
     }
   }
 }

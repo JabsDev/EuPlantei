@@ -5,7 +5,7 @@ Aplicativo Android **EuPlantei** (`br.com.jabsdev.euplantei`) para diagnóstico 
 - **Alvo principal:** Samsung Galaxy S22 (8 GB RAM, arm64-v8a)
 - **minSdk 28 · targetSdk 35 · compileSdk 35**
 - **ABI:** arm64-v8a
-- **APK de release:** ~48 MB (o GGUF nunca é embutido; inclui os dois modelos TFLite)
+- **APK de release:** ~28 MB (o GGUF nunca é embutido; inclui os dois modelos TFLite)
 - **Offline:** visão, LLM, base local e cálculo solar funcionam sem internet; clima usa cache ou entrada manual
 - **Privacidade:** fotos e consultas ficam no armazenamento do app; não há analytics, anúncios ou tracking
 - **Download em segundo plano:** foreground service `dataSync` + WakeLock + notificação de progresso; o download não para quando a tela apaga
@@ -16,12 +16,12 @@ Aplicativo Android **EuPlantei** (`br.com.jabsdev.euplantei`) para diagnóstico 
 
 - Captura com CameraX (troca de câmera, flash, guia de enquadramento e dica de luz).
 - Galeria via **Photo Picker** (`ActivityResultContracts.PickVisualMedia`), sem permissões de armazenamento.
-- Classificação híbrida: modelo de **47 plantas de interior** + modelo PlantVillage de **38 classes de cultura/doença**.
+- Classificação híbrida: modelo de **59 classes de espécies** (47 plantas de interior + 12 ornamentais/hortaliças brasileiras) + modelo PlantVillage de **38 classes de cultura/doença**.
 - Confirmação da espécie quando há candidatos de planta de interior; confiança ≥65% automática para culturas e 40–64% confirmação.
 - Para plantas de interior, etapa de sintomas (folhas amarelas, murcha, manchas etc.) antes do conselho.
 - Clima Open-Meteo com localização aproximada, cache persistente, fallback offline e entrada manual.
 - `SolarCalculator` NOAA offline para nascer/pôr do sol, duração do dia e posição solar.
-- Mini-RAG local com **67 perfis** de plantas e **135 doenças** (30 ornamentais brasileiras, 14 culturas do PlantVillage e 23 plantas de interior do modelo híbrido).
+- Mini-RAG local com **67 perfis** de plantas e **135 doenças** (30 ornamentais brasileiras, 14 culturas do PlantVillage e 23 plantas de interior do modelo híbrido). O modelo de espécies cobre 52 desses perfis; o PlantVillage cobre as 14 culturas.
 - LLM GGUF via llama.cpp/JNI, chat template do próprio modelo, streaming token a token e cancelamento real.
 - Ficha de cuidados da espécie acima do conselho: luz, rega, poda, adubação, temperatura, solo e toxicidade para pets.
 - Proteção térmica: aviso a 40 °C e bloqueio de nova geração a 43 °C.
@@ -77,7 +77,7 @@ Para emulador x86_64 (somente desenvolvimento):
 ./gradlew connectedDebugAndroidTest -PeuplanteiAbis=x86_64
 ```
 
-O padrão é **arm64-v8a**. O APK de debug também é minificado (R8) para permanecer abaixo de 60 MB; o release fica em ~48 MB e o debug em ~56 MB.
+O padrão é **arm64-v8a**. O APK de debug também é minificado (R8) para permanecer abaixo de 60 MB; o release fica em ~28 MB e o debug em ~36 MB.
 
 > O release local está assinado com a **chave de debug** para permitir instalação por sideload. Para publicar, crie um keystore próprio e altere `signingConfigs` em `app/build.gradle.kts`. Nunca distribua o APK assinado com a chave de debug.
 
@@ -133,8 +133,8 @@ Arquivos:
 app/src/main/assets/models/plant_model.tflite           (2,5 MB, 38 classes de cultura/doença)
 app/src/main/assets/models/labels.txt                   (rótulos PlantVillage)
 app/src/main/assets/models/labels_ptbr.json             (nomes PT-BR)
-app/src/main/assets/models/houseplant_model.tflite      (29 MB, 47 plantas de interior)
-app/src/main/assets/models/houseplant_labels.txt        (rótulos do modelo de interior)
+app/src/main/assets/models/houseplant_model.tflite      (8,2 MB, 59 classes de espécies)
+app/src/main/assets/models/houseplant_labels.txt        (rótulos do modelo de espécies)
 app/src/main/assets/models/houseplant_labels_ptbr.json  (nomes PT-BR e perfis)
 ```
 
@@ -146,22 +146,25 @@ Existem dois modelos:
    - Entrada `[1,224,224,3]` float32 em **[0,1]**, saída `[1,38]` softmax.
    - Pré-processamento [0,1] verificado na prática.
 
-2. **Houseplant Species** (EfficientNetB4): 47 plantas de interior, 29 MB.
-   - Origem: `https://huggingface.co/datasets/kakasher/house-plant-species` e modelo TFLite público `AlyModrik41/House-Plants-Classification-TFLite-Model`.
-   - Entrada `[1,224,224,3]` float32 em **[0,255]** (o modelo já tem `Rescaling(1/255)` interno), saída `[1,47]` softmax.
-   - Dataset com 14.790 imagens e 47 classes; o card do dataset pede uso pessoal e a licença declarada é CC BY 3.0. Não comercializar sem revisar os direitos das imagens.
+2. **EuPlantei Species** (EfficientNet-B0 fine-tuned, TFLite float16): 59 rótulos, 8,2 MB.
+   - SHA-256: `0f295c10ebf27c320026e0091ce514944b75809d626b56d7ee43ab944eed51c4`
+   - Cobre **52 `speciesId`** da base local: os 47 rótulos do modelo antigo de interior (40 `speciesId`) + 12 ornamentais/hortaliças brasileiras (rosa, jasmim, hortênsia, gerânio, cravo, lavanda, alecrim, manjericão, hortelã, peperômia, clorofito e girassol).
+   - Treino: **22.295 imagens** (14.786 do House Plant Species + 7.509 fotos CC0/CC BY/CC BY-SA do iNaturalist, priorizando o Brasil), split 80/10/10 por classe e por observação no iNaturalist.
+   - Entrada `[1,224,224,3]` float32 em **[0,255]** com normalização ImageNet embutida no grafo; saída `[1,59]` softmax.
+   - Resultado no conjunto de teste (2.232 imagens): **top-1 90,2% / top-3 96,6%**. No subconjunto só de iNaturalist (753 imagens): **81,5% / 92,7%**. Nas 435 fotos em que os dois modelos têm classes em comum, o novo faz **79,8% / 93,1%** e o anterior **30,6% / 46,9%**.
+   - Latência de ~3,3 ms por inferência em CPU desktop com 4 threads (float16); o modelo anterior tinha 29 MB.
+   - O pipeline reproduzível e o model card estão em `training/`.
    - O `HybridVisionClassifier` roda os dois modelos. Se houver candidato de planta de interior, a UI pede confirmação da espécie; depois pede os sintomas observados (folhas amarelas, murcha, manchas etc.) antes do LLM. Isso evita o caso de um lírio ser diagnosticado como milho.
 
-Para substituir:
+Para substituir/retreinar:
 
-1. Gere/baixe um `.tflite` com a mesma interface (224×224, 38 classes, saída softmax) ou ajuste `PlantClassifier`.
-2. Substitua `plant_model.tflite`.
-3. Atualize `labels.txt` na mesma ordem das saídas.
-4. Atualize `labels_ptbr.json` (chaves normalizadas sem acento) com `species`, `condition`, `speciesId` e `healthy`.
-5. Rode `./gradlew testDebugUnitTest` e valide fotos reais.
-6. Se alterar a normalização, ajuste `createInputBuffer` em `PlantClassifier.kt`.
+1. Use o pipeline em `training/` (`build_classes.py` → `download_inat.py` → `prepare_manifest.py` → `train.py` → `export_tflite.py`).
+2. O export gera `houseplant_model.tflite` com entrada 224×224 e saída softmax; o padrão é float16 (melhor equilíbrio entre tamanho, latência e acurácia).
+3. Copie o `.tflite`, `houseplant_labels.txt` e `houseplant_labels_ptbr.json` para `app/src/main/assets/models/` (`training/scripts/install_assets.sh v1-b0`).
+4. Rode `./gradlew testDebugUnitTest` e valide fotos reais. O teste `KnowledgeRetrieverTest` confere se todos os 59 rótulos apontam para um perfil da base local.
+5. Se alterar a normalização, ajuste `createInputBuffer` em `PlantClassifier.kt`.
 
-**Limite importante:** o PlantVillage cobre 38 classes de 14 culturas, não todas as plantas ornamentais. Fotos muito diferentes ou de espécies fora dessas classes podem gerar confiança alta e classe errada. A ficha de cuidados só aparece quando a espécie identificada existe na base local; use o fluxo manual quando a foto não corresponder. Para produção, treine um modelo com fotos reais e inclua uma etapa de rejeição de imagens não vegetais.
+**Limite importante:** o modelo cobre 59 classes. Plantas fora do catálogo caem na classe mais parecida, e ainda não existe uma etapa de rejeição “não é planta” nem detecção de out-of-distribution. O PlantVillage continua cobrindo 38 classes de 14 culturas. Para produção, colete fotos reais do seu celular e adicione uma classe de rejeição/ruído antes de confiar em confiança alta.
 
 ---
 
@@ -360,7 +363,7 @@ Cobrem:
 | `testDebugUnitTest` | ✅ 30 testes |
 | `connectedDebugAndroidTest` | ✅ 4 testes |
 | `assembleRelease` + R8 | ✅ |
-| APK debug / release | ✅ 56 MB / 48 MB |
+| APK debug / release | ✅ 36 MB / 28 MB |
 | Importação de GGUF (0,5 B) | ✅ |
 | Download de 1,1 GB, cancelamento e retomada por Range | ✅ |
 | Download com tela apagada (foreground service + WakeLock) | ✅ (partição cresceu de 37 MB para 862 MB e concluiu com a tela apagada) |
@@ -370,6 +373,7 @@ Cobrem:
 | Photo Picker | ✅ |
 | Classificação PlantVillage | ✅ (foto de requeima do tomateiro → 92%) |
 | Classificação híbrida em foto de lírio | ✅ (Lírio 71% + confirmação da espécie; morango apareceu como candidato de cultura) |
+| Modelo de espécies v1 (59 classes) | ✅ top-1 90,2% / top-3 96,6% em 2.232 imagens de teste; iNaturalist 81,5% / 92,7% |
 | Etapa de sintomas para planta de interior | ✅ |
 | Geração 0,5 B e 1,5 B | ✅ |
 | Cancelamento real no JNI | ✅ (ícone de parar e botão no card) |
@@ -393,11 +397,11 @@ Itens que dependem de hardware real e **não** foram medidos aqui: temperatura r
 
 ## 12. Limitações conhecidas
 
-1. **Modelo de visão:** 38 classes de culturas do PlantVillage, treinado com imagens de laboratório. A confiança pode ser alta em imagens fora da distribuição. Para produção, treine com fotos reais e adicione um detector/rejeição de vegetação.
+1. **Modelo de visão:** o classificador de espécies cobre 59 classes (52 `speciesId`) e foi treinado com 14.786 imagens de interior + 7.509 fotos do iNaturalist. Ainda não há rejeição de out-of-distribution nem classe “não é planta”; fotos fora do catálogo podem gerar confiança alta e classe errada. O PlantVillage cobre 38 classes de 14 culturas, com imagens de laboratório. Para produção, colete fotos reais do seu aparelho e adicione uma etapa de rejeição.
 2. **Qualidade do LLM:** o modelo padrão de 1,5 B é pequeno. Em aparelhos com menos RAM, importe um GGUF menor; respostas podem variar. O app não faz fine-tuning.
 3. **Térmica:** a leitura é da bateria, não da CPU/GPU. Os limiares (40/43 °C) são conservadores e devem ser calibrados em aparelhos reais.
 4. **Geocodificação:** o `Geocoder` do Android pode usar rede do sistema; a consulta ao Open-Meteo em si usa apenas coordenadas arredondadas.
-5. **Licença do modelo de visão:** o arquivo embutido foi obtido de um repositório público com finalidade educativa. Verifique a licença do PlantVillage e do repositório de origem antes de distribuir comercialmente; substitua por um modelo com licença compatível. A PDDB/Digipathos da Embrapa é CC BY-NC 4.0, não Apache 2.0; não foi usada neste build. O corpus textual `br-llm-data/embrapa-corpus-cs` é gated, tem licença `other` e não é um dataset de imagens.
+5. **Licença do modelo de visão:** o modelo de espécies foi treinado neste projeto com o dataset House Plant Species (CC BY 3.0, com ressalva de uso pessoal) e fotos CC0/CC BY/CC BY-SA do iNaturalist. O PlantVillage tem termos próprios. Verifique as licenças antes de distribuir comercialmente; o build atual é pessoal/não comercial. A PDDB/Digipathos da Embrapa é CC BY-NC 4.0, não Apache 2.0; não foi usada neste build. O corpus textual `br-llm-data/embrapa-corpus-cs` é gated, tem licença `other` e não é um dataset de imagens.
 6. **Assinatura:** o release local usa chave de debug. Troque antes de publicar.
 7. **Android 15/target 35:** o app foi testado em emulador API 35; o S22 físico deve ser validado.
 8. **Exportação:** o arquivo `.txt` é gerado via `ACTION_CREATE_DOCUMENT`; alguns gerenciadores de arquivos podem não estar disponíveis em todos os aparelhos.
@@ -409,6 +413,7 @@ Itens que dependem de hardware real e **não** foram medidos aqui: temperatura r
 - **llama.cpp / ggml** — MIT. Cópia vendorizada em `app/src/main/cpp/llama.cpp` (commit `e3de71522`).
 - **TensorFlow Lite** — Apache 2.0.
 - **MobileNetV2 / PlantVillage** — modelo educativo; ver limitação de licença acima.
+- **EuPlantei Species / EfficientNet-B0** — treinado neste projeto; dados: House Plant Species (CC BY 3.0) e iNaturalist (CC0/CC BY/CC BY-SA). Ver limitação de licença acima.
 - **Qwen 2.5** — Apache 2.0. Baixado separadamente; **não** incluso no APK.
 - **Open-Meteo** — dados meteorológicos gratuitos, sem chave.
 - **Material Icons** — Apache 2.0.
@@ -450,9 +455,9 @@ Formato do `update.json` (asset de cada release):
 
 ```json
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "apkUrl": "https://github.com/JabsDev/EuPlantei/releases/download/v1.1.1/EuPlantei-1.1.1.apk",
+  "versionCode": 4,
+  "versionName": "1.2.0",
+  "apkUrl": "https://github.com/JabsDev/EuPlantei/releases/download/v1.2.0/EuPlantei-1.2.0.apk",
   "sha256": "…",
   "notes": "Notas da versão"
 }
